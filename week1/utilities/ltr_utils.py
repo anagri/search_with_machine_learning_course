@@ -59,6 +59,7 @@ def create_feature_log_query(query, doc_ids, click_prior_query, featureset_name,
     ##### Step 3.b:
     log_entry = "log_entry1"
     named_query = "logged_featureset"
+    doc_ids_str = [str(doc_id) for doc_id in doc_ids]
     feature_log_query = {
         "size": size,
         "query": {
@@ -66,13 +67,14 @@ def create_feature_log_query(query, doc_ids, click_prior_query, featureset_name,
                 "filter": [
                     {
                         "terms": {
-                            "_id": doc_ids
+                            "_id": doc_ids_str
                         }
                     },
                     {
                         "sltr": {
                             "_name": named_query,
                             "featureset": featureset_name,
+                            "store": ltr_store_name,
                             "params": {
                                 "keywords": query
                             }

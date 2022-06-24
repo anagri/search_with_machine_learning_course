@@ -43,10 +43,14 @@
         "template_language": "mustache",
         "template": {
           "function_score": {
-            "functions": {
-              "field": "onSale",
-              "missing": 0
-            }
+            "functions": [
+              {
+                "field_value_factor": {
+                  "field": "onSale",
+                  "missing": 0
+                }
+              }
+            ]
           }
         }
       },
@@ -56,10 +60,14 @@
         "template_language": "mustache",
         "template": {
           "function_score": {
-            "functions": {
-              "field": "salesRankShortTerm",
-              "missing": 0
-            }
+            "functions": [
+              {
+                "field_value_factor": {
+                  "field": "salesRankShortTerm",
+                  "missing": 0
+                }
+              }
+            ]
           }
         }
       },
@@ -69,10 +77,14 @@
         "template_language": "mustache",
         "template": {
           "function_score": {
-            "functions": {
-              "field": "salesRankMediumTerm",
-              "missing": 0
-            }
+            "functions": [
+              {
+                "field_value_factor": {
+                  "field": "salesRankMediumTerm",
+                  "missing": 0
+                }
+              }
+            ]
           }
         }
       },
@@ -82,10 +94,14 @@
         "template_language": "mustache",
         "template": {
           "function_score": {
-            "functions": {
-              "field": "salesRankLongTerm",
-              "missing": 0
-            }
+            "functions": [
+              {
+                "field_value_factor": {
+                  "field": "salesRankLongTerm",
+                  "missing": 0
+                }
+              }
+            ]
           }
         }
       },
@@ -95,10 +111,14 @@
         "template_language": "mustache",
         "template": {
           "function_score": {
-            "functions": {
-              "field": "salePrice",
-              "missing": 0
-            }
+            "functions": [
+              {
+                "field_value_factor": {
+                  "field": "salePrice",
+                  "missing": 0
+                }
+              }
+            ]
           }
         }
       },
@@ -108,10 +128,14 @@
         "template_language": "mustache",
         "template": {
           "function_score": {
-            "functions": {
-              "field": "regularPrice",
-              "missing": 0
-            }
+            "functions": [
+              {
+                "field_value_factor": {
+                  "field": "regularPrice",
+                  "missing": 0
+                }
+              }
+            ]
           }
         }
       }
