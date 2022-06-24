@@ -12,6 +12,108 @@
             "name": "{{keywords}}"
           }
         }
+      },
+      {
+        "name": "shortDescription_match",
+        "params": [
+          "keywords"
+        ],
+        "template_language": "mustache",
+        "template": {
+          "match": {
+            "shortDescription": "{{keywords}}"
+          }
+        }
+      },
+      {
+        "name": "longDescription_match",
+        "params": [
+          "keywords"
+        ],
+        "template_language": "mustache",
+        "template": {
+          "match": {
+            "longDescription": "{{keywords}}"
+          }
+        }
+      },
+      {
+        "name": "onsale_function",
+        "params": [],
+        "template_language": "mustache",
+        "template": {
+          "function_score": {
+            "functions": {
+              "field": "onSale",
+              "missing": 0
+            }
+          }
+        }
+      },
+      {
+        "name": "short_term_rank_function",
+        "params": [],
+        "template_language": "mustache",
+        "template": {
+          "function_score": {
+            "functions": {
+              "field": "salesRankShortTerm",
+              "missing": 0
+            }
+          }
+        }
+      },
+      {
+        "name": "medium_term_rank_function",
+        "params": [],
+        "template_language": "mustache",
+        "template": {
+          "function_score": {
+            "functions": {
+              "field": "salesRankMediumTerm",
+              "missing": 0
+            }
+          }
+        }
+      },
+      {
+        "name": "long_term_rank_function",
+        "params": [],
+        "template_language": "mustache",
+        "template": {
+          "function_score": {
+            "functions": {
+              "field": "salesRankLongTerm",
+              "missing": 0
+            }
+          }
+        }
+      },
+      {
+        "name": "sale_price_function",
+        "params": [],
+        "template_language": "mustache",
+        "template": {
+          "function_score": {
+            "functions": {
+              "field": "salePrice",
+              "missing": 0
+            }
+          }
+        }
+      },
+      {
+        "name": "price_function",
+        "params": [],
+        "template_language": "mustache",
+        "template": {
+          "function_score": {
+            "functions": {
+              "field": "regularPrice",
+              "missing": 0
+            }
+          }
+        }
       }
     ]
   }
