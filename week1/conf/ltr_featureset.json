@@ -50,7 +50,10 @@
                   "missing": 0
                 }
               }
-            ]
+            ],
+            "query": {
+              "match_all": {}
+            }
           }
         }
       },
@@ -67,7 +70,10 @@
                   "missing": 0
                 }
               }
-            ]
+            ],
+            "query": {
+              "match_all": {}
+            }
           }
         }
       },
@@ -84,7 +90,10 @@
                   "missing": 0
                 }
               }
-            ]
+            ],
+            "query": {
+              "match_all": {}
+            }
           }
         }
       },
@@ -101,7 +110,10 @@
                   "missing": 0
                 }
               }
-            ]
+            ],
+            "query": {
+              "match_all": {}
+            }
           }
         }
       },
@@ -118,7 +130,10 @@
                   "missing": 0
                 }
               }
-            ]
+            ],
+            "query": {
+              "match_all": {}
+            }
           }
         }
       },
@@ -135,7 +150,10 @@
                   "missing": 0
                 }
               }
-            ]
+            ],
+            "query": {
+              "match_all": {}
+            }
           }
         }
       }
