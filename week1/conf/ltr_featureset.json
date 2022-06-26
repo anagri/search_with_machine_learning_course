@@ -14,7 +14,19 @@
         }
       },
       {
-        "name": "shortDescription_match",
+        "name": "name_phrase_match",
+        "params": [
+          "keywords"
+        ],
+        "template_language": "mustache",
+        "template": {
+          "match_phrase": {
+            "name": {"query": "{{keywords}}", "slop": 3}
+          }
+        }
+      },
+      {
+        "name": "short_description_match",
         "params": [
           "keywords"
         ],
@@ -26,7 +38,19 @@
         }
       },
       {
-        "name": "longDescription_match",
+        "name": "short_description_phrase_match",
+        "params": [
+          "keywords"
+        ],
+        "template_language": "mustache",
+        "template": {
+          "match_phrase": {
+            "shortDescription": {"query": "{{keywords}}", "slop": 3}
+          }
+        }
+      },
+      {
+        "name": "long_description_match",
         "params": [
           "keywords"
         ],
@@ -38,15 +62,26 @@
         }
       },
       {
-        "name": "onsale_function",
-        "params": [],
+        "name": "long_description_phrase_match",
+        "params": [
+          "keywords"
+        ],
+        "template_language": "mustache",
+        "template": {
+          "match_phrase": {
+            "longDescription": {"query": "{{keywords}}", "slop": 3}
+          }
+        }
+      },
+      {
+        "name": "factor_customer_review_average",
         "template_language": "mustache",
         "template": {
           "function_score": {
             "functions": [
               {
                 "field_value_factor": {
-                  "field": "onSale",
+                  "field": "customerReviewAverage",
                   "missing": 0
                 }
               }
@@ -58,95 +93,14 @@
         }
       },
       {
-        "name": "short_term_rank_function",
-        "params": [],
+        "name": "factor_customer_review_count",
         "template_language": "mustache",
         "template": {
           "function_score": {
             "functions": [
               {
                 "field_value_factor": {
-                  "field": "salesRankShortTerm",
-                  "missing": 0
-                }
-              }
-            ],
-            "query": {
-              "match_all": {}
-            }
-          }
-        }
-      },
-      {
-        "name": "medium_term_rank_function",
-        "params": [],
-        "template_language": "mustache",
-        "template": {
-          "function_score": {
-            "functions": [
-              {
-                "field_value_factor": {
-                  "field": "salesRankMediumTerm",
-                  "missing": 0
-                }
-              }
-            ],
-            "query": {
-              "match_all": {}
-            }
-          }
-        }
-      },
-      {
-        "name": "long_term_rank_function",
-        "params": [],
-        "template_language": "mustache",
-        "template": {
-          "function_score": {
-            "functions": [
-              {
-                "field_value_factor": {
-                  "field": "salesRankLongTerm",
-                  "missing": 0
-                }
-              }
-            ],
-            "query": {
-              "match_all": {}
-            }
-          }
-        }
-      },
-      {
-        "name": "sale_price_function",
-        "params": [],
-        "template_language": "mustache",
-        "template": {
-          "function_score": {
-            "functions": [
-              {
-                "field_value_factor": {
-                  "field": "salePrice",
-                  "missing": 0
-                }
-              }
-            ],
-            "query": {
-              "match_all": {}
-            }
-          }
-        }
-      },
-      {
-        "name": "price_function",
-        "params": [],
-        "template_language": "mustache",
-        "template": {
-          "function_score": {
-            "functions": [
-              {
-                "field_value_factor": {
-                  "field": "regularPrice",
+                  "field": "customerReviewCount",
                   "missing": 0
                 }
               }

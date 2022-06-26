@@ -235,17 +235,16 @@ class DataPrepper:
         # print("IMPLEMENT ME: __log_ltr_query_features: Extract log features out of the LTR:EXT response and place in a data frame")
         # Loop over the hits structure returned by running `log_query` and then extract out the features from the response per query_id and doc id.  Also capture and return all query/doc pairs that didn't return features
         # Your structure should look like the data frame below
-        log_entry = {}
         try:
             response = self.opensearch.search(body=log_query, index=self.index_name)
             # response['hits']['hits'][0]['fields']['_ltrlog'][0]['log_entry1']
-            if response['hits'] and \
-                    len(response['hits']['hits'] or []) > 0 and \
-                    response['hits']['hits'][0]['fields'] != None and \
-                    len(response['hits']['hits'][0]['fields']['_ltrlog'] or []) != 0 and \
-                    response['hits']['hits'][0]['fields']['_ltrlog'][0]['logentry1'] != None:
-                log_entries = response['hits']['hits'][0]['fields']['_ltrlog'][0]['logentry1']
-                log_entry = {l['name']: l['value'] for l in log_entries}
+            if response.get('hits', None) and \
+                    len(response['hits'].get('hits', [])) > 0 and \
+                    response['hits']['hits'][0].get('fields', None) != None and \
+                    len(response['hits']['hits'][0]['fields'].get('_ltrlog', [])) != 0 and \
+                    response['hits']['hits'][0]['fields']['_ltrlog'][0].get('log_entry1', None) != None:
+                log_entries = response['hits']['hits'][0]['fields']['_ltrlog'][0]['log_entry1']
+                log_entry = {l['name']: l.get('value', 0.0) for l in log_entries}
         except RequestError as re:
             print("Unable to execute log_query: %s\t%s" % (log_query, re))
             raise re
@@ -255,18 +254,32 @@ class DataPrepper:
         feature_results["sku"] = []
         for k in log_entry.keys():
             feature_results[k] = []
-        for doc_id in query_doc_ids:
+        hits = response['hits']['hits']
+        for i, doc_id in enumerate(query_doc_ids):
             feature_results["doc_id"].append(doc_id)  # capture the doc id so we can join later
             feature_results["query_id"].append(query_id)
             feature_results["sku"].append(doc_id)
+            log_entry = {}
+            hit = next(iter(h for h in hits if h['_id'] == str(doc_id)), None)
+            if hit != None and \
+                    hit.get('fields', None) != None and \
+                    len(hit['fields'].get('_ltrlog', [])) != 0 and \
+                    hit['fields']['_ltrlog'][0].get('log_entry1', None) != None:
+                log_entries = hit['fields']['_ltrlog'][0]['log_entry1']
+                log_entry = {l['name']: l.get('value', 0.0) for l in log_entries}
+            else:
+                print(("Cannot access log_entry for doc_id: {}") % (doc_id))
+
             for (k, v) in log_entry.items():
+                if feature_results.get(k, None) == None:
+                    feature_results[k] = [0.0] * i
                 feature_results[k].append(v)
-        pd_types = {k: 'float64' for k in log_entry.keys()}
-        pd_types = {'doc_id': 'int64', 'query_id': 'int64', 'sku': 'int64'} | pd_types
+        ltr_feature_keys = feature_results.keys() - ['doc_id', 'query_id', 'sku']
+        ltr_mappings = {k: 'float64' for k in ltr_feature_keys}
+        pd_types = {'doc_id': 'int64', 'query_id': 'int64', 'sku': 'int64'} | ltr_mappings
         frame = pd.DataFrame(feature_results)
         return frame.astype(pd_types)
         # IMPLEMENT_END
-
     # Can try out normalizing data, but for XGb, you really don't have to since it is just finding splits
     def normalize_data(self, ranks_features_df, feature_set, normalize_type_map):
         # we need to get some stats from OpenSearch and then use that to normalize our data
