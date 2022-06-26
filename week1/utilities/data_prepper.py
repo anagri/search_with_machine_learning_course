@@ -6,6 +6,7 @@ import pandas as pd
 import query_utils as qu
 from opensearchpy import RequestError
 import os
+import json
 
 # from importlib import reload
 
@@ -213,6 +214,13 @@ class DataPrepper:
         print("The following queries produced no results: %s" % no_results)
         return features_df
 
+    def feature_names(self):
+        names = []
+        with open('week1/conf/ltr_featureset.json') as f:
+            j = json.load(f)
+            names = [feature['name'] for feature in j['featureset']['features']]
+        return names
+
     # Features look like:
     # {'log_entry': [{'name': 'title_match',
     #          'value': 7.221403},
@@ -238,13 +246,6 @@ class DataPrepper:
         try:
             response = self.opensearch.search(body=log_query, index=self.index_name)
             # response['hits']['hits'][0]['fields']['_ltrlog'][0]['log_entry1']
-            if response.get('hits', None) and \
-                    len(response['hits'].get('hits', [])) > 0 and \
-                    response['hits']['hits'][0].get('fields', None) != None and \
-                    len(response['hits']['hits'][0]['fields'].get('_ltrlog', [])) != 0 and \
-                    response['hits']['hits'][0]['fields']['_ltrlog'][0].get('log_entry1', None) != None:
-                log_entries = response['hits']['hits'][0]['fields']['_ltrlog'][0]['log_entry1']
-                log_entry = {l['name']: l.get('value', 0.0) for l in log_entries}
         except RequestError as re:
             print("Unable to execute log_query: %s\t%s" % (log_query, re))
             raise re
@@ -252,31 +253,27 @@ class DataPrepper:
         feature_results["doc_id"] = []  # capture the doc id so we can join later
         feature_results["query_id"] = []  # ^^^
         feature_results["sku"] = []
-        for k in log_entry.keys():
-            feature_results[k] = []
+        feature_names = self.feature_names()
+        for fname in feature_names:
+            feature_results[fname] = []
+
         hits = response['hits']['hits']
-        for i, doc_id in enumerate(query_doc_ids):
-            feature_results["doc_id"].append(doc_id)  # capture the doc id so we can join later
+        for hit in hits:
+            feature_results["doc_id"].append(hit['_id'])
             feature_results["query_id"].append(query_id)
-            feature_results["sku"].append(doc_id)
-            log_entry = {}
-            hit = next(iter(h for h in hits if h['_id'] == str(doc_id)), None)
-            if hit != None and \
-                    hit.get('fields', None) != None and \
+            feature_results["sku"].append(hit['_source']['sku'][0])
+            feature_values = {fname: 0.0 for fname in feature_names}
+            if hit.get('fields', None) != None and \
                     len(hit['fields'].get('_ltrlog', [])) != 0 and \
                     hit['fields']['_ltrlog'][0].get('log_entry1', None) != None:
                 log_entries = hit['fields']['_ltrlog'][0]['log_entry1']
                 log_entry = {l['name']: l.get('value', 0.0) for l in log_entries}
+                feature_values = feature_values | log_entry
             else:
-                print(("Cannot access log_entry for doc_id: {}") % (doc_id))
-
-            for (k, v) in log_entry.items():
-                if feature_results.get(k, None) == None:
-                    feature_results[k] = [0.0] * i
+                print(("Cannot access log_entry for doc_id: {}") % (hit['_id']))
+            for (k, v) in feature_values.items():
                 feature_results[k].append(v)
-        ltr_feature_keys = feature_results.keys() - ['doc_id', 'query_id', 'sku']
-        ltr_mappings = {k: 'float64' for k in ltr_feature_keys}
-        pd_types = {'doc_id': 'int64', 'query_id': 'int64', 'sku': 'int64'} | ltr_mappings
+        pd_types = {'doc_id': 'int64', 'query_id': 'int64', 'sku': 'int64'} | {fname: 'float64' for fname in feature_names}
         frame = pd.DataFrame(feature_results)
         return frame.astype(pd_types)
         # IMPLEMENT_END

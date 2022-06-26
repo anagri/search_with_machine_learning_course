@@ -1,6 +1,5 @@
 {
   "objective": "reg:logistic",
   "max_depth": 8,
-  "num_round": 30,
   "eta": 0.2
 }
