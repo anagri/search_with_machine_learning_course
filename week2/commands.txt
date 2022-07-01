@@ -1,0 +1,108 @@
+
+# run createContentTrainingData.py to generate labeled_products.txt
+# shuffle the generated data
+shuf /workspace/datasets/fasttext/labeled_products.txt  > /workspace/datasets/fasttext/shuffled_labeled_products.txt
+# prepare training data
+head -10000 /workspace/datasets/fasttext/shuffled_labeled_products.txt > training_data.txt
+# prepare test data
+tail -10000 /workspace/datasets/fasttext/shuffled_labeled_products.txt > testing_data.txt
+# train the model
+~/fastText-0.9.2/fasttext supervised -input training_data.txt -output product_classifier -lr 1.0 -epoch 25 -wordNgrams 2
+# test the model
+~/fastText-0.9.2/fasttext test product_classifier.bin /workspace/datasets/fasttext/test_data.txt
+# model results
+```
+(search_with_ml) gitpod /workspace/search_with_machine_learning_course (main) $ ~/fastText-0.9.2/fasttext test product_classifier.bin /workspace/datasets/fasttext/test_data.txt
+N       9648
+P@1     0.613
+R@1     0.613
+```
+
+# training data clean up
+cat /workspace/datasets/fasttext/training_data.txt | sed -e "s/\([.\!?,'/()]\)/ \1 /g" | tr "[:upper:]" "[:lower:]" | sed "s/[^[:alnum:]_]/ /g" | tr -s ' ' > /workspace/datasets/fasttext/normalized_training_data.txt `
+# test data clean up
+cat /workspace/datasets/fasttext/test_data.txt | sed -e "s/\([.\!?,'/()]\)/ \1 /g" | tr "[:upper:]" "[:lower:]" | sed "s/[^[:alnum:]_]/ /g" | tr -s ' ' > /workspace/datasets/fasttext/normalized_testing_data.txt
+# retrain the model on cleaned up data
+~/fastText-0.9.2/fasttext supervised -input /workspace/datasets/fasttext/normalized_training_data.txt -output product_classifier -lr 1.0 -epoch 25 -wordNgrams 2
+# test the model
+~/fastText-0.9.2/fasttext test product_classifier.bin /workspace/datasets/fasttext/normalized_testing_data.txt
+# results
+```
+(search_with_ml) gitpod /workspace/search_with_machine_learning_course (main) $ ~/fastText-0.9.2/fasttext test product_classifier.bin /workspace/datasets/fasttext/normalized_testing_data.txt
+N       9648
+P@1     0.607
+R@1     0.607
+```
+
+# pruned labeled products using prune-data.ipynb and generate /workspace/datasets/fasttext/pruned_labeled_products.txt
+# shuffle the data
+shuf /workspace/datasets/fasttext/pruned_labeled_products.txt > /workspace/datasets/fasttext/pruned_shuffled_labeled_products.txt
+# training data
+head -10000 /workspace/datasets/fasttext/pruned_shuffled_labeled_products.txt > /workspace/datasets/fasttext/pruned_training_data.txt
+# testing data
+tail -10000 /workspace/datasets/fasttext/pruned_shuffled_labeled_products.txt > /workspace/datasets/fasttext/pruned_testing_data.txt
+# train the model
+~/fastText-0.9.2/fasttext supervised -input /workspace/datasets/fasttext/pruned_training_data.txt -output product_classifier -lr 1.0 -epoch 25 -wordNgrams 2
+# test the model
+~/fastText-0.9.2/fasttext test product_classifier.bin /workspace/datasets/fasttext/pruned_testing_data.txt
+# results
+```
+(search_with_ml) gitpod /workspace/search_with_machine_learning_course (main) $ ~/fastText-0.9.2/fasttext test product_classifier.bin /workspace/datasets/fasttext/pruned_testing_data.txt
+N       5036
+P@1     0.964
+R@1     0.964
+```
+
+# normalize pruned training data
+cat /workspace/datasets/fasttext/pruned_training_data.txt | sed -e "s/\([.\!?,'/()]\)/ \1 /g" | tr "[:upper:]" "[:lower:]" | sed "s/[^[:alnum:]_]/ /g" | tr -s ' ' > /workspace/datasets/fasttext/pruned_normalized_training_data.txt
+# normalize pruned testing data
+cat /workspace/datasets/fasttext/pruned_testing_data.txt | sed -e "s/\([.\!?,'/()]\)/ \1 /g" | tr "[:upper:]" "[:lower:]" | sed "s/[^[:alnum:]_]/ /g" | tr -s ' ' > /workspace/datasets/fasttext/pruned_normalized_testing_data.txt
+# train the model
+~/fastText-0.9.2/fasttext supervised -input /workspace/datasets/fasttext/pruned_normalized_training_data.txt -output product_classifier -lr 1.0 -epoch 25 -wordNgrams 2
+# test the model
+~/fastText-0.9.2/fasttext test product_classifier.bin /workspace/datasets/fasttext/normalized_testing_data.txt
+# results
+```
+(search_with_ml) gitpod /workspace/search_with_machine_learning_course (main) $ ~/fastText-0.9.2/fasttext test product_classifier.bin /workspace/datasets/fasttext/normalized_testing_data.txt
+N       2500
+P@1     0.968
+R@1     0.968
+```
+
+# generating synonyms
+# prepare data
+cut -d' ' -f2- /workspace/datasets/fasttext/shuffled_labeled_products.txt > /workspace/datasets/fasttext/titles.txt
+# train the model
+~/fastText-0.9.2/fasttext skipgram -input /workspace/datasets/fasttext/titles.txt -output title_model
+# test the model
+~/fastText-0.9.2/fasttext nn title_model.bin
+```
+(search_with_ml) gitpod /workspace/search_with_machine_learning_course (main) $ ~/fastText-0.9.2/fasttext nn title_model.bin
+Query word? iphone
+Saxophone 0.850345
+Speakerphone 0.847421
+Telephone 0.838894
+Earphones 0.822026
+Microphone 0.815968
+```
+
+# normalized data for better performance
+# normalize training data
+cat /workspace/datasets/fasttext/titles.txt | sed -e "s/\([.\!?,'/()]\)/ \1 /g" | tr "[:upper:]" "[:lower:]" | sed "s/[^[:alnum:]]/ /g" | tr -s ' ' > /workspace/datasets/fasttext/normalized_titles.txt
+# train the model
+~/fastText-0.9.2/fasttext skipgram -input /workspace/datasets/fasttext/normalized_titles.txt -output title_model
+# test the model
+~/fastText-0.9.2/fasttext nn title_model.bin
+```
+Query word? iphone
+4s 0.83084
+3gs 0.776334
+apple 0.757744
+ipadÂ 0.727652
+ipod 0.711501
+```
+
+# integrating synonyms
+cat /workspace/datasets/fasttext/normalized_titles.txt | tr " " "\n" | grep "...." | sort | uniq -c | sort -nr | head -1000 | grep -oE '[^ ]+$' > /workspace/datasets/fasttext/top_words.txt
+
+# use synonyms.ipynb to generate syonyms.csv
