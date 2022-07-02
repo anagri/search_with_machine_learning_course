@@ -106,3 +106,13 @@ ipod 0.711501
 cat /workspace/datasets/fasttext/normalized_titles.txt | tr " " "\n" | grep "...." | sort | uniq -c | sort -nr | head -1000 | grep -oE '[^ ]+$' > /workspace/datasets/fasttext/top_words.txt
 
 # use synonyms.ipynb to generate syonyms.csv
+
+
+https://www.ebay.com/sch/i.html?_nkw=cricket vs. https://www.ebay.com/sch/i.html?_nkw=crickets
+https://queryunderstanding.com/character-filtering-76ede1cf1a97
+https://queryunderstanding.com/stemming-and-lemmatization-6c086742fe45
+
+
+query_string
+
+
