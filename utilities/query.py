@@ -93,7 +93,7 @@ def create_query(user_query, click_prior_query, filters, sort="_score", sortDir=
                                     "minimum_should_match": "2<75%",
                                     "fields": [f"{name_field}^10", "name.hyphens^10", "shortDescription^5",
                                                "longDescription^5", "department^0.5", "sku", "manufacturer", "features",
-                                               "categoryPath", "name.synonyms"]
+                                               "categoryPath"]
                                 }
                             },
                             {
