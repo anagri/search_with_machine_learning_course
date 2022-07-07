@@ -1,3 +1,10 @@
+*.bin
+*.vec
+training_data*.txt
+testing_data*.txt
+*.png
+week2/cooking*
+
 data/computer_products*
 data/pruned_products*
 data/phone_products*

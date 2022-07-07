@@ -233,9 +233,9 @@ def search(client, user_query, index="bbuy_products", sort="_score", sortDir="de
         names = [hit['_source']['name'][0] for hit in hits]
         # .hits.hits[]._source.name
         # print(json.dumps(response, indent=2))
-        print(f"Query:{query}")
+        print(f"search '{query}' --filter_categories={filter_categories}")
         print("Results:")
-        [print(n) for n in names]
+        [print(n) for n in names[0:5]]
 
 
 if __name__ == "__main__":
@@ -285,14 +285,17 @@ if __name__ == "__main__":
     index_name = args.index
     synonyms = args.synonyms
     filter_categories = args.filter_categories
-    query_prompt = "\nEnter your query (type 'Exit' to exit or hit ctrl-c):"
+    query_prompt = "Enter your query (type 'Exit' to exit or hit ctrl-c):"
     print(query_prompt)
     for line in fileinput.input(('-',)):
         query = line.rstrip()
         if query == "Exit":
             break
-        search(client=opensearch, user_query=query, index=index_name, synonyms=synonyms, filter_categories=filter_categories)
-
+        print("-----")
+        search(client=opensearch, user_query=query, index=index_name, synonyms=synonyms, filter_categories=False)
+        print("-----")
+        search(client=opensearch, user_query=query, index=index_name, synonyms=synonyms, filter_categories=True)
+        print("=====")
         print(query_prompt)
 
     
