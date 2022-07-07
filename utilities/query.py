@@ -234,6 +234,8 @@ def search(client, user_query, index="bbuy_products", sort="_score", sortDir="de
         # .hits.hits[]._source.name
         # print(json.dumps(response, indent=2))
         print(f"search '{query}' --filter_categories={filter_categories}")
+        if filter_categories:
+            print(f"filter categories: {selected_cats}")
         print("Results:")
         [print(n) for n in names[0:5]]
 
