@@ -11,7 +11,14 @@ from urllib.parse import urljoin
 import pandas as pd
 import fileinput
 import logging
+import nltk
+import fasttext
+import re
 
+from nltk.stem.snowball import SnowballStemmer
+stemmer = SnowballStemmer("english")
+
+query_classifier = fasttext.load_model('/workspace/search_with_machine_learning_course/week3/query_classifier_1k.bin')
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
@@ -51,7 +58,6 @@ def create_prior_queries(doc_ids, doc_id_weights,
 # Hardcoded query here.  Better to use search templates or other query config.
 def create_query(user_query, click_prior_query, filters, sort="_score", sortDir="desc", size=10, source=None, synonyms=False):
     name_field = "name.synonyms" if synonyms else "name"
-    print(f"Search with synonyms: {synonyms}, {name_field}")
     query_obj = {
         'size': size,
         "sort": [
@@ -185,21 +191,51 @@ def create_query(user_query, click_prior_query, filters, sort="_score", sortDir=
             print("Couldn't replace query for *")
     if source is not None:  # otherwise use the default and retrieve all source
         query_obj["_source"] = source
-    print("query_obj", json.dumps(query_obj, indent=2))
+    # print("query_obj", json.dumps(query_obj, indent=2))
     return query_obj
 
+def normalize_query(query):
+    query = query.strip().lower()
+    query = re.sub(r"[^a-zA-Z0-9\s]", "", query)
+    query = re.sub(r"\s{2,}", " ", query)
+    query = stemmer.stem(query)
+    return query
 
-def search(client, user_query, index="bbuy_products", sort="_score", sortDir="desc", synonyms=False):
+def search(client, user_query, index="bbuy_products", sort="_score", sortDir="desc", synonyms=False, filter_categories=False):
     #### W3: classify the query
     #### W3: create filters and boosts
     # Note: you may also want to modify the `create_query` method above
-    query_obj = create_query(user_query, click_prior_query=None, filters=None, sort=sort, sortDir=sortDir, 
+    selected_cats = []
+    sort = "_score"
+    filters = None
+    if filter_categories:        
+        norm_query = normalize_query(query)
+        (predictions, probs) = query_classifier.predict(norm_query, k=3)
+        # select all categories for which individual probability is higher than 0.3
+        for i, prediction in enumerate(predictions):
+            prob = probs[i]
+            if prob < 0.3:
+                next
+            selected_cats.append(prediction.replace('__label__', ''))
+        # sort = "salePrice"
+    if len(selected_cats) > 0:
+        filters = {
+            "terms": {
+                "categoryPathIds": selected_cats
+            }
+        }
+    query_obj = create_query(user_query, click_prior_query=None, filters=filters, sort=sort, sortDir=sortDir, 
         source=["name", "shortDescription"], synonyms=synonyms)
-    logging.info(query_obj)
+    # logging.info(query_obj)
     response = client.search(query_obj, index=index)
     if response and response['hits']['hits'] and len(response['hits']['hits']) > 0:
         hits = response['hits']['hits']
-        print(json.dumps(response, indent=2))
+        names = [hit['_source']['name'][0] for hit in hits]
+        # .hits.hits[]._source.name
+        # print(json.dumps(response, indent=2))
+        print(f"Query:{query}")
+        print("Results:")
+        [print(n) for n in names]
 
 
 if __name__ == "__main__":
@@ -218,6 +254,8 @@ if __name__ == "__main__":
                          help='The OpenSearch admin.  If this is set, the program will prompt for password too. If not set, use default of admin/admin')
     general.add_argument('--synonyms', action=argparse.BooleanOptionalAction,
                          help='Include synonyms in search. If this is set, search will be performed on field indexed with synonyms')
+    general.add_argument('--filter_categories', action=argparse.BooleanOptionalAction,
+                         help='Uses categories learned from model trained on queries to improve precision')
 
     args = parser.parse_args()
 
@@ -246,13 +284,14 @@ if __name__ == "__main__":
     )
     index_name = args.index
     synonyms = args.synonyms
+    filter_categories = args.filter_categories
     query_prompt = "\nEnter your query (type 'Exit' to exit or hit ctrl-c):"
     print(query_prompt)
     for line in fileinput.input(('-',)):
         query = line.rstrip()
         if query == "Exit":
             break
-        search(client=opensearch, user_query=query, index=index_name, synonyms=synonyms)
+        search(client=opensearch, user_query=query, index=index_name, synonyms=synonyms, filter_categories=filter_categories)
 
         print(query_prompt)
 
