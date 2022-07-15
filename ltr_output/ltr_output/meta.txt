@@ -1,0 +1,1 @@
+ltr-end-to-end.sh /workspace/search_with_machine_learning_course week1 /workspace/ltr_output /workspace/datasets/train.csv --synthesize heuristic run at  Fri 08 Jul 2022 02:40:19 PM UTC

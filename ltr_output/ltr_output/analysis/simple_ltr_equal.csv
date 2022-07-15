@@ -1,0 +1,986 @@
+query,sku,rank_simple,type_simple,found_simple,new_simple,score_simple,rank_ltr,type_ltr,found_ltr,new_ltr,score_ltr
+iPod touch 64,8771885,1,simple,True,False,1406.6577,1,ltr_simple,True,False,1407.0397
+iPod touch 64,9225439,3,simple,True,False,1307.2451,3,ltr_simple,True,False,1307.6271
+iPod touch 64,3109357,4,simple,True,False,1306.4951,4,ltr_simple,True,False,1306.863
+iPod touch 64,9999165700050033,16,simple,True,False,89.72319,16,ltr_simple,True,False,90.09113
+iPod touch 64,9999165700050022,22,simple,True,False,89.720276,22,ltr_simple,True,False,90.08822
+digital picture frame,1145239,22,simple,True,False,28.932741,22,ltr_simple,True,False,29.300684
+digital picture frame,1525426,26,simple,True,False,16.056269,26,ltr_simple,True,False,16.424212
+digital picture frame,8408458,31,simple,True,False,14.022146,31,ltr_simple,True,False,14.390089
+digital picture frame,2612859,72,simple,True,False,10.027268,72,ltr_simple,True,False,10.395211
+digital picture frame,1068073,73,simple,True,False,10.0062685,73,ltr_simple,True,False,10.374211
+digital picture frame,2915371,109,simple,True,False,9.990872,109,ltr_simple,True,False,10.358815
+digital picture frame,1174959,112,simple,True,False,9.578842,112,ltr_simple,True,False,9.946785
+digital picture frame,1232823,143,simple,True,False,9.5678425,143,ltr_simple,True,False,9.935785
+digital picture frame,1635186,159,simple,True,False,9.312483,159,ltr_simple,True,False,9.680426
+digital picture frame,2863614,160,simple,True,False,9.30921,160,ltr_simple,True,False,9.677153
+digital picture frame,1208962,161,simple,True,False,9.186482,161,ltr_simple,True,False,9.554425
+digital picture frame,9823687,163,simple,True,False,9.186482,163,ltr_simple,True,False,9.554425
+digital picture frame,9376784,189,simple,True,False,9.171876,189,ltr_simple,True,False,9.539819
+digital picture frame,1178755,224,simple,True,False,8.494295,224,ltr_simple,True,False,8.862238
+digital picture frame,9504299,249,simple,True,False,7.9903173,249,ltr_simple,True,False,8.35826
+digital picture frame,9678539,253,simple,True,False,7.6406426,253,ltr_simple,True,False,8.008586
+digital picture frame,9376267,319,simple,True,False,0.06718139,319,ltr_simple,True,False,0.4351244
+microsd,1437168,12,simple,True,False,528.636,12,ltr_simple,True,False,529.0039
+microsd,9146685,18,simple,True,False,510.46667,18,ltr_simple,True,False,510.83463
+microsd,9941511,19,simple,True,False,506.9759,19,ltr_simple,True,False,507.34384
+microsd,9927567,31,simple,True,False,489.16846,31,ltr_simple,True,False,489.5364
+microsd,9690237,35,simple,True,False,469.61526,35,ltr_simple,True,False,469.98322
+microsd,9215725,43,simple,True,False,435.62332,43,ltr_simple,True,False,435.99127
+microsd,3735513,47,simple,True,False,389.94354,47,ltr_simple,True,False,390.3115
+microsd,9226964,55,simple,True,False,44.853905,55,ltr_simple,True,False,45.221848
+microsd,2603545,348,simple,True,False,5.637916,348,ltr_simple,True,False,6.005859
+Ipad 2,2538172,10,simple,True,False,290.40097,10,ltr_simple,True,False,290.78262
+Ipad 2,2408224,13,simple,True,False,285.1611,13,ltr_simple,True,False,285.54276
+Ipad 2,2343139,15,simple,True,False,284.80536,15,ltr_simple,True,False,285.1733
+Ipad 2,2330145,16,simple,True,False,284.80438,16,ltr_simple,True,False,285.17233
+Ipad 2,2330321,17,simple,True,False,284.80438,17,ltr_simple,True,False,285.17233
+Ipad 2,2343263,18,simple,True,False,284.80438,18,ltr_simple,True,False,285.17233
+Ipad 2,3006175,20,simple,True,False,284.80417,20,ltr_simple,True,False,285.17212
+Ipad 2,2343227,27,simple,True,False,284.79938,27,ltr_simple,True,False,285.16733
+Ipad 2,2343509,28,simple,True,False,284.79938,28,ltr_simple,True,False,285.16733
+Ipad 2,2985144,37,simple,True,False,272.74603,37,ltr_simple,True,False,273.11398
+Ipad 2,2339386,57,simple,True,False,270.32715,57,ltr_simple,True,False,270.70908
+Ipad 2,1945674,58,simple,True,False,270.31714,58,ltr_simple,True,False,270.69907
+Ipad 2,2319133,60,simple,True,False,270.27734,60,ltr_simple,True,False,270.659
+Ipad 2,3458977,71,simple,True,False,270.27713,71,ltr_simple,True,False,270.64508
+Ipad 2,3458704,73,simple,True,False,270.27713,73,ltr_simple,True,False,270.64508
+Ipad 2,2821249,77,simple,True,False,270.27435,77,ltr_simple,True,False,270.6423
+Ipad 2,3437029,81,simple,True,False,270.27435,81,ltr_simple,True,False,270.6423
+Ipad 2,3600078,87,simple,True,False,270.27435,87,ltr_simple,True,False,270.6423
+Ipad 2,2629877,176,simple,True,False,260.5202,176,ltr_simple,True,False,260.88815
+Ipad 2,2824389,182,simple,True,False,259.47104,182,ltr_simple,True,False,259.839
+Ipad 2,2918599,183,simple,True,False,259.47104,183,ltr_simple,True,False,259.839
+Ipad 2,2701307,216,simple,True,False,257.17105,216,ltr_simple,True,False,257.539
+Ipad 2,3686161,219,simple,True,False,257.16104,219,ltr_simple,True,False,257.529
+Ipad 2,2577182,220,simple,True,False,257.16052,220,ltr_simple,True,False,257.52847
+Ipad 2,2490083,378,simple,True,False,246.11284,378,ltr_simple,True,False,246.58911
+Ipad 2,2678393,430,simple,True,False,241.76593,430,ltr_simple,True,False,242.1352
+Ipad 2,3504297,437,simple,True,False,239.67963,437,ltr_simple,True,False,240.04758
+Ipad 2,2318055,492,simple,True,False,231.70644,492,ltr_simple,True,False,232.10707
+halo,5402771,1,simple,True,False,658.8879,1,ltr_simple,True,False,659.25903
+halo,3345134,39,simple,True,False,496.99478,39,ltr_simple,True,False,497.36273
+wii console,9999168300050007,4,simple,True,False,643.53766,4,ltr_simple,True,False,643.9056
+wii console,2539739,9,simple,True,False,569.42194,9,ltr_simple,True,False,569.78986
+wii console,3668575,11,simple,True,False,560.50134,11,ltr_simple,True,False,561.1009
+wii console,9999159400050001,24,simple,True,False,51.22757,24,ltr_simple,True,False,51.595512
+wii console,9999159400050003,27,simple,True,False,46.954052,27,ltr_simple,True,False,47.321995
+wii console,1151188,88,simple,True,False,7.9663363,88,ltr_simple,True,False,8.334279
+ozzy osbourne,1154916,3,simple,True,False,1340.6095,3,ltr_simple,True,False,1341.077
+lcd tv,2363655,180,simple,True,False,37.254166,180,ltr_simple,True,False,37.62369
+lcd tv,1825196,197,simple,True,False,36.085083,197,ltr_simple,True,False,36.453026
+lcd tv,2072076,205,simple,True,False,35.711163,205,ltr_simple,True,False,36.079105
+lcd tv,1288169,280,simple,True,False,25.589172,280,ltr_simple,True,False,25.957115
+lcd tv,8488638,281,simple,True,False,25.207207,281,ltr_simple,True,False,25.57515
+lcd tv,8836735,286,simple,True,False,24.433327,286,ltr_simple,True,False,24.80127
+lcd tv,8488647,301,simple,True,False,23.01928,301,ltr_simple,True,False,23.387222
+lcd tv,8669176,306,simple,True,False,22.149035,306,ltr_simple,True,False,22.516977
+lcd tv,2363054,330,simple,True,False,16.914879,330,ltr_simple,True,False,17.282822
+lcd tv,2685235,390,simple,True,False,6.6492844,390,ltr_simple,True,False,7.0246067
+lcd tv,2893174,421,simple,True,False,0.4587825,421,ltr_simple,True,False,0.840705
+lcd tv,1831054,422,simple,True,False,0.3497825,422,ltr_simple,True,False,0.7305417
+lcd tv,2047641,423,simple,True,False,0.18478249,423,ltr_simple,True,False,0.5527255
+lcd tv,2127443,424,simple,True,False,0.13078249,424,ltr_simple,True,False,0.5192734
+Toshiba,2925059,10,simple,True,False,422.99887,10,ltr_simple,True,False,423.36682
+Toshiba,9704259,103,simple,True,False,348.36783,103,ltr_simple,True,False,348.73578
+Toshiba,9881977,104,simple,True,False,348.36783,104,ltr_simple,True,False,348.73578
+Toshiba,2628253,106,simple,True,False,333.8888,106,ltr_simple,True,False,334.25674
+Toshiba,2945870,112,simple,True,False,332.83603,112,ltr_simple,True,False,333.21136
+Toshiba,2769576,339,simple,True,False,293.58087,339,ltr_simple,True,False,293.9628
+Toshiba,2768901,340,simple,True,False,293.56387,340,ltr_simple,True,False,293.95236
+Toshiba,2355595,463,simple,True,False,283.30466,463,ltr_simple,True,False,283.6726
+Toshiba,2970255,469,simple,True,False,282.47726,469,ltr_simple,True,False,282.8452
+rolling stones,3072513,2,simple,True,False,1081.9393,2,ltr_simple,True,False,1082.3257
+rolling stones,9405805,32,simple,True,False,10.607677,32,ltr_simple,True,False,10.97562
+rolling stones,8234047,334,simple,True,False,0.014,334,ltr_simple,True,False,0.38194302
+rolling stones,7342663,335,simple,True,False,0.014,335,ltr_simple,True,False,0.38194302
+tivo,1171961,4,simple,True,False,644.94354,4,ltr_simple,True,False,645.31146
+tivo,9772968,5,simple,True,False,644.9315,5,ltr_simple,True,False,645.29944
+tivo,9759512,6,simple,True,False,591.3928,6,ltr_simple,True,False,591.76074
+tivo,7384314,8,simple,True,False,565.08044,8,ltr_simple,True,False,565.44836
+tivo,9744971,12,simple,True,False,541.4051,12,ltr_simple,True,False,541.93866
+tivo,9999163500050001,13,simple,True,False,540.93634,13,ltr_simple,True,False,541.30426
+tivo,9745228,16,simple,True,False,518.7861,16,ltr_simple,True,False,519.154
+tivo,3438692,26,simple,True,False,498.3068,26,ltr_simple,True,False,498.67474
+tivo,9119642,77,simple,True,False,0.024,77,ltr_simple,True,False,0.40592247
+tivo,1257136,78,simple,True,False,0.018,78,ltr_simple,True,False,0.39875925
+tivo,1331156,79,simple,True,False,0.012,79,ltr_simple,True,False,0.39275923
+tivo,8234118,93,simple,True,False,0.003,93,ltr_simple,True,False,0.370943
+tivo,9909482,94,simple,True,False,0.003,94,ltr_simple,True,False,0.370943
+Scooby doo,2907105,2,simple,True,False,1255.0177,2,ltr_simple,True,False,1255.4187
+Scooby doo,9479806,4,simple,True,False,1196.4891,4,ltr_simple,True,False,1196.8901
+uniden,2308146,10,simple,True,False,501.3622,10,ltr_simple,True,False,501.73016
+uniden,2308173,11,simple,True,False,501.3052,11,ltr_simple,True,False,501.67316
+uniden,9036303,20,simple,True,False,477.96423,20,ltr_simple,True,False,478.33218
+uniden,2038089,21,simple,True,False,477.83722,21,ltr_simple,True,False,478.20517
+uniden,2038098,22,simple,True,False,477.83722,22,ltr_simple,True,False,478.20517
+uniden,9044321,31,simple,True,False,456.52625,31,ltr_simple,True,False,456.8942
+uniden,1210376,35,simple,True,False,437.0525,35,ltr_simple,True,False,437.42044
+uniden,9036642,49,simple,True,False,422.44632,49,ltr_simple,True,False,422.81427
+uniden,9604444,50,simple,True,False,419.19913,50,ltr_simple,True,False,419.56708
+uniden,2961642,52,simple,True,False,419.14658,52,ltr_simple,True,False,419.51453
+uniden,9535559,56,simple,True,False,419.14658,56,ltr_simple,True,False,419.51453
+uniden,9871704,64,simple,True,False,419.14313,64,ltr_simple,True,False,419.51108
+uniden,9345032,88,simple,True,False,387.65805,88,ltr_simple,True,False,388.026
+uniden,2308085,89,simple,True,False,387.43304,89,ltr_simple,True,False,387.801
+uniden,6211878,148,simple,True,False,362.68176,148,ltr_simple,True,False,363.0497
+uniden,9297735,153,simple,True,False,360.1594,153,ltr_simple,True,False,360.52734
+uniden,2256213,166,simple,True,False,360.1568,166,ltr_simple,True,False,360.52475
+alarm clock,1288354,8,simple,True,False,839.61426,8,ltr_simple,True,False,839.9822
+alarm clock,9183242,16,simple,True,False,800.421,16,ltr_simple,True,False,800.78894
+alarm clock,2681202,27,simple,True,False,764.77167,27,ltr_simple,True,False,765.1396
+alarm clock,9215217,31,simple,True,False,764.75714,31,ltr_simple,True,False,765.12506
+alarm clock,2106283,32,simple,True,False,764.7297,32,ltr_simple,True,False,765.0976
+alarm clock,1186366,95,simple,True,False,732.0731,95,ltr_simple,True,False,732.44104
+alarm clock,9337103,143,simple,True,False,702.1044,143,ltr_simple,True,False,702.4723
+alarm clock,2954111,147,simple,True,False,702.1026,147,ltr_simple,True,False,702.4705
+alarm clock,9798717,181,simple,True,False,702.09735,181,ltr_simple,True,False,702.4653
+alarm clock,3276632,182,simple,True,False,676.70013,182,ltr_simple,True,False,677.06805
+alarm clock,9899581,194,simple,True,False,674.48456,194,ltr_simple,True,False,674.8525
+alarm clock,9809562,202,simple,True,False,648.97815,202,ltr_simple,True,False,649.34607
+alarm clock,1997057,217,simple,True,False,625.2915,217,ltr_simple,True,False,625.6594
+alarm clock,2205052,223,simple,True,False,603.3232,223,ltr_simple,True,False,603.6911
+alarm clock,2481046,224,simple,True,False,603.3092,224,ltr_simple,True,False,603.6771
+alarm clock,9504299,226,simple,True,False,603.30524,226,ltr_simple,True,False,603.67316
+alarm clock,2873068,251,simple,True,False,563.64,251,ltr_simple,True,False,564.00793
+alarm clock,9798699,252,simple,True,False,563.63666,252,ltr_simple,True,False,564.0046
+alarm clock,2871825,260,simple,True,False,545.70233,260,ltr_simple,True,False,546.07025
+alarm clock,9209251,273,simple,True,False,77.24875,273,ltr_simple,True,False,77.61669
+alarm clock,2317171,293,simple,True,False,59.53196,293,ltr_simple,True,False,59.899902
+alarm clock,1831036,300,simple,True,False,57.553436,300,ltr_simple,True,False,57.92138
+alarm clock,9402773,301,simple,True,False,57.494564,301,ltr_simple,True,False,57.862507
+alarm clock,3540455,311,simple,True,False,54.453842,311,ltr_simple,True,False,54.821785
+alarm clock,8975521,383,simple,True,False,22.149336,383,ltr_simple,True,False,22.517279
+htc flyer,2607038,1,simple,True,False,1027.8424,1,ltr_simple,True,False,1028.2323
+htc flyer,2634263,2,simple,True,False,945.872,2,ltr_simple,True,False,946.24615
+htc flyer,2732088,3,simple,True,False,943.6651,3,ltr_simple,True,False,944.033
+htc flyer,2732121,6,simple,True,False,906.5363,6,ltr_simple,True,False,906.90424
+htc flyer,2390524,7,simple,True,False,668.55585,7,ltr_simple,True,False,669.3136
+htc flyer,1946197,490,simple,True,False,0.004,490,ltr_simple,True,False,0.3859225
+htc flyer,2824228,497,simple,True,False,0.002,497,ltr_simple,True,False,0.36994302
+htc flyer,2740208,499,simple,True,False,0.002,499,ltr_simple,True,False,0.36994302
+flash drive,2300348,2,simple,True,False,572.637,2,ltr_simple,True,False,573.00494
+flash drive,2927127,3,simple,True,False,572.6091,3,ltr_simple,True,False,572.977
+flash drive,2927154,4,simple,True,False,572.6091,4,ltr_simple,True,False,572.977
+flash drive,2300375,5,simple,True,False,572.60205,5,ltr_simple,True,False,572.97
+flash drive,1181652,10,simple,True,False,572.5729,10,ltr_simple,True,False,572.9408
+flash drive,9757757,17,simple,True,False,547.0538,17,ltr_simple,True,False,547.4217
+flash drive,9757739,20,simple,True,False,547.04376,20,ltr_simple,True,False,547.4117
+flash drive,2629868,22,simple,True,False,547.04144,22,ltr_simple,True,False,547.40936
+flash drive,2023439,29,simple,True,False,524.9207,29,ltr_simple,True,False,525.28864
+flash drive,2006202,34,simple,True,False,524.9177,34,ltr_simple,True,False,525.28564
+flash drive,9737114,69,simple,True,False,502.41638,69,ltr_simple,True,False,502.78433
+flash drive,9933847,70,simple,True,False,502.3954,70,ltr_simple,True,False,502.76334
+flash drive,9933947,71,simple,True,False,502.3884,71,ltr_simple,True,False,502.75635
+flash drive,9737178,72,simple,True,False,502.37738,72,ltr_simple,True,False,502.74533
+flash drive,9737196,73,simple,True,False,502.3704,73,ltr_simple,True,False,502.73834
+flash drive,2301747,74,simple,True,False,502.3494,74,ltr_simple,True,False,502.71735
+flash drive,9793649,120,simple,True,False,502.28735,120,ltr_simple,True,False,502.6553
+flash drive,2300523,122,simple,True,False,502.24213,122,ltr_simple,True,False,502.61008
+flash drive,9226777,138,simple,True,False,485.905,138,ltr_simple,True,False,486.27295
+flash drive,9226759,139,simple,True,False,485.86298,139,ltr_simple,True,False,486.23093
+flash drive,9226875,140,simple,True,False,485.839,140,ltr_simple,True,False,486.20694
+flash drive,1259647,149,simple,True,False,482.4966,149,ltr_simple,True,False,482.86456
+flash drive,1095386,160,simple,True,False,482.48962,160,ltr_simple,True,False,482.85757
+flash drive,1095695,163,simple,True,False,482.48962,163,ltr_simple,True,False,482.85757
+flash drive,1046372,202,simple,True,False,482.48962,202,ltr_simple,True,False,482.85757
+flash drive,9193963,338,simple,True,False,464.22845,338,ltr_simple,True,False,464.5964
+flash drive,9288807,419,simple,True,False,452.24155,419,ltr_simple,True,False,452.6095
+iPhone,1230537,113,simple,True,False,694.2634,113,ltr_simple,True,False,694.63135
+iPhone,1260607,115,simple,True,False,694.2484,115,ltr_simple,True,False,694.61633
+iPhone,1155475,128,simple,True,False,694.2433,128,ltr_simple,True,False,694.6112
+iPhone,1256419,129,simple,True,False,694.2423,129,ltr_simple,True,False,694.6102
+iPhone,2542978,130,simple,True,False,694.2423,130,ltr_simple,True,False,694.6102
+iPhone,8977869,131,simple,True,False,694.2423,131,ltr_simple,True,False,694.6102
+iPhone,1155439,136,simple,True,False,694.2423,136,ltr_simple,True,False,694.6102
+iPhone,1083175,154,simple,True,False,674.62573,154,ltr_simple,True,False,674.99365
+iPhone,3369434,156,simple,True,False,666.9635,156,ltr_simple,True,False,667.3314
+iPhone,3370267,158,simple,True,False,666.9475,158,ltr_simple,True,False,667.3154
+iPhone,1776227,159,simple,True,False,666.9441,159,ltr_simple,True,False,667.312
+iPhone,3825057,171,simple,True,False,666.9382,171,ltr_simple,True,False,667.3061
+iPhone,3825048,180,simple,True,False,666.93604,180,ltr_simple,True,False,667.30396
+iPhone,2542941,186,simple,True,False,666.9351,186,ltr_simple,True,False,667.30304
+iPhone,3439355,188,simple,True,False,666.9351,188,ltr_simple,True,False,667.30304
+iPhone,2549771,192,simple,True,False,666.9341,192,ltr_simple,True,False,667.302
+iPhone,1950181,210,simple,True,False,666.9341,210,ltr_simple,True,False,667.302
+iPhone,2642085,218,simple,True,False,666.9341,218,ltr_simple,True,False,667.302
+iPhone,2533052,221,simple,True,False,666.9341,221,ltr_simple,True,False,667.302
+iPhone,2533201,222,simple,True,False,666.9341,222,ltr_simple,True,False,667.302
+iPhone,9773885,241,simple,True,False,649.3648,241,ltr_simple,True,False,649.7327
+iPhone,1049236,242,simple,True,False,641.8029,242,ltr_simple,True,False,642.17084
+iPhone,1049078,243,simple,True,False,641.74994,243,ltr_simple,True,False,642.13184
+iPhone,9530224,246,simple,True,False,641.7068,246,ltr_simple,True,False,642.0747
+iPhone,2266061,248,simple,True,False,641.7019,248,ltr_simple,True,False,642.0698
+iPhone,1950233,250,simple,True,False,641.70087,250,ltr_simple,True,False,642.0688
+iPhone,1658274,255,simple,True,False,641.6989,255,ltr_simple,True,False,642.06683
+iPhone,3815157,261,simple,True,False,641.6989,261,ltr_simple,True,False,642.06683
+iPhone,3815041,262,simple,True,False,641.6989,262,ltr_simple,True,False,642.06683
+iPhone,3598973,263,simple,True,False,641.6989,263,ltr_simple,True,False,642.06683
+iPhone,9516936,274,simple,True,False,641.6968,274,ltr_simple,True,False,642.0647
+iPhone,3815272,283,simple,True,False,641.6968,283,ltr_simple,True,False,642.0647
+iPhone,8988884,293,simple,True,False,641.69586,293,ltr_simple,True,False,642.0638
+iPhone,2614108,319,simple,True,False,641.6949,319,ltr_simple,True,False,642.0628
+iPhone,2672098,393,simple,True,False,641.6931,393,ltr_simple,True,False,642.06104
+iPhone,2683176,421,simple,True,False,641.6931,421,ltr_simple,True,False,642.06104
+iPhone,2629777,430,simple,True,False,641.6931,430,ltr_simple,True,False,642.06104
+iPhone,1633364,452,simple,True,False,625.9342,452,ltr_simple,True,False,626.3021
+iPhone,9921879,455,simple,True,False,625.9335,455,ltr_simple,True,False,626.3014
+iPhone,1048998,468,simple,True,False,618.3943,468,ltr_simple,True,False,618.7638
+iPhone,3133123,499,simple,True,False,618.2982,499,ltr_simple,True,False,618.66614
+iPhone 4s,3721653,1,simple,True,True,2227.0369,1,ltr_simple,True,True,2227.4048
+iPhone 4s,3566902,13,simple,True,True,2141.493,13,ltr_simple,True,True,2141.8608
+iPhone 4s,3566948,14,simple,True,True,2141.493,14,ltr_simple,True,True,2141.8608
+iPhone 4s,3566966,15,simple,True,True,2141.493,15,ltr_simple,True,True,2141.8608
+iPhone 4s,3814088,16,simple,True,True,2141.493,16,ltr_simple,True,True,2141.8608
+iPhone 4s,3814033,18,simple,True,True,2141.493,18,ltr_simple,True,True,2141.8608
+iPhone 4s,3812927,24,simple,True,True,2062.3591,24,ltr_simple,True,True,2062.727
+iPhone 4s,3812945,25,simple,True,True,2062.3591,25,ltr_simple,True,True,2062.727
+iPhone 4s,3562379,26,simple,True,True,2062.3552,26,ltr_simple,True,True,2062.7249
+iPhone 4s,3562475,27,simple,True,True,2062.3552,27,ltr_simple,True,True,2062.7231
+iPhone 4s,3562493,28,simple,True,True,2062.3552,28,ltr_simple,True,True,2062.7231
+iPhone 4s,3562527,29,simple,True,True,2062.3552,29,ltr_simple,True,True,2062.7231
+iPhone 4s,3812972,30,simple,True,True,2062.3552,30,ltr_simple,True,True,2062.7231
+iPhone 4s,3813256,31,simple,True,True,2062.3552,31,ltr_simple,True,True,2062.7231
+iPhone 4s,3812736,98,simple,True,True,1829.5349,98,ltr_simple,True,True,1829.9028
+iPhone 4s,3540395,100,simple,True,True,432.64905,100,ltr_simple,True,True,433.017
+iPhone 4s,3540428,101,simple,True,True,432.64905,101,ltr_simple,True,True,433.017
+iPhone 4s,3540304,102,simple,True,True,413.8107,102,ltr_simple,True,True,414.17865
+iPhone 4s,3540322,103,simple,True,True,413.8107,103,ltr_simple,True,True,414.17865
+iPhone 4s,3540359,104,simple,True,True,413.8107,104,ltr_simple,True,True,414.17865
+iPhone 4s,3540446,105,simple,True,True,413.8107,105,ltr_simple,True,True,414.17865
+iPhone 4s,1990451,130,simple,True,True,208.68532,130,ltr_simple,True,True,209.05458
+iPhone 4s,3725859,158,simple,True,True,198.62686,158,ltr_simple,True,True,198.99481
+iPhone 4s,3812539,210,simple,True,True,189.50488,210,ltr_simple,True,True,189.87283
+iPhone 4s,3812566,211,simple,True,True,189.50488,211,ltr_simple,True,True,189.87283
+iPhone 4s,3725886,238,simple,True,True,189.50116,238,ltr_simple,True,True,189.86911
+iPhone 4s,3812727,272,simple,True,True,181.18709,272,ltr_simple,True,True,181.55504
+iPhone 4s,2023139,283,simple,True,True,181.18365,283,ltr_simple,True,True,181.5516
+iPhone 4s,3778186,288,simple,True,True,181.18365,288,ltr_simple,True,True,181.5516
+iPhone 4s,3779033,290,simple,True,True,181.18365,290,ltr_simple,True,True,181.5516
+iPhone 4s,3369046,377,simple,True,True,5.1736984,377,ltr_simple,True,True,5.541641
+iPhone 4s,1048998,490,simple,True,True,0.043865155,490,ltr_simple,True,True,0.41339254
+iPhone 4s,1049236,493,simple,True,True,0.043865155,493,ltr_simple,True,True,0.41180816
+iPhone 4s,1049245,494,simple,True,True,0.043865155,494,ltr_simple,True,True,0.41180816
+Gift cards,8753636,1,simple,True,False,816.66986,1,ltr_simple,True,False,817.0378
+Gift cards,8234092,59,simple,True,False,80.40592,59,ltr_simple,True,False,80.773865
+Gift cards,9824419,98,simple,True,False,80.40592,98,ltr_simple,True,False,80.773865
+Gift cards,9383302,409,simple,True,False,76.1123,409,ltr_simple,True,False,76.48024
+photo paper,7235119,13,simple,True,False,806.76843,13,ltr_simple,True,False,807.13635
+photo paper,7635222,19,simple,True,False,806.76843,19,ltr_simple,True,False,807.13635
+photo paper,2225357,29,simple,True,False,769.1079,29,ltr_simple,True,False,769.4758
+photo paper,9621405,38,simple,True,False,734.81287,38,ltr_simple,True,False,735.1808
+photo paper,3080048,74,simple,True,False,674.6363,74,ltr_simple,True,False,675.0042
+photo paper,8795075,76,simple,True,False,674.6312,76,ltr_simple,True,False,674.99915
+photo paper,9776027,105,simple,True,False,648.1567,105,ltr_simple,True,False,648.5246
+photo paper,7266479,107,simple,True,False,648.1177,107,ltr_simple,True,False,648.4856
+photo paper,6622121,160,simple,True,False,648.0941,160,ltr_simple,True,False,648.46204
+photo paper,9024441,492,simple,True,False,0.70215255,492,ltr_simple,True,False,1.0700955
+calculators,8520022,6,simple,True,False,95.88711,6,ltr_simple,True,False,96.25505
+calculators,1558044,29,simple,True,False,89.80106,29,ltr_simple,True,False,90.16901
+calculators,3667213,39,simple,True,False,89.79006,39,ltr_simple,True,False,90.158005
+calculators,3395221,55,simple,True,False,84.43304,55,ltr_simple,True,False,84.80098
+calculators,6621444,75,simple,True,False,75.48587,75,ltr_simple,True,False,75.85381
+calculators,1328968,80,simple,True,False,75.405876,80,ltr_simple,True,False,75.77382
+calculators,2670594,81,simple,True,False,75.405876,81,ltr_simple,True,False,75.77382
+calculators,6621346,85,simple,True,False,71.59437,85,ltr_simple,True,False,71.96231
+calculators,2300417,232,simple,True,False,26.455502,232,ltr_simple,True,False,26.830824
+calculators,7662095,391,simple,True,False,0.011,391,ltr_simple,True,False,0.37894303
+calculators,8234047,392,simple,True,False,0.011,392,ltr_simple,True,False,0.37894303
+hdmi,8735595,1,simple,True,False,525.119,1,ltr_simple,True,False,525.48694
+hdmi,1059515,2,simple,True,False,509.83176,2,ltr_simple,True,False,510.1997
+hdmi,3214075,7,simple,True,False,509.79977,7,ltr_simple,True,False,510.16772
+hdmi,2730745,10,simple,True,False,495.38455,10,ltr_simple,True,False,495.7525
+hdmi,9205889,18,simple,True,False,474.39285,18,ltr_simple,True,False,474.7608
+hdmi,9651071,25,simple,True,False,457.49594,25,ltr_simple,True,False,457.8639
+hdmi,1358559,28,simple,True,False,450.02612,28,ltr_simple,True,False,450.39407
+hdmi,8905839,29,simple,True,False,450.00296,29,ltr_simple,True,False,450.3709
+hdmi,2648583,30,simple,True,False,449.98196,30,ltr_simple,True,False,450.3499
+hdmi,2902507,54,simple,True,False,427.9418,54,ltr_simple,True,False,428.30975
+hdmi,1686449,55,simple,True,False,427.94113,55,ltr_simple,True,False,428.30908
+hdmi,2731344,57,simple,True,False,427.94095,57,ltr_simple,True,False,428.3089
+hdmi,1224493,85,simple,True,False,427.93314,85,ltr_simple,True,False,428.3011
+hdmi,9343043,86,simple,True,False,427.93015,86,ltr_simple,True,False,428.2981
+hdmi,2947005,87,simple,True,False,427.93015,87,ltr_simple,True,False,428.2981
+hdmi,1287009,92,simple,True,False,408.04828,92,ltr_simple,True,False,408.41623
+hdmi,8427106,93,simple,True,False,408.01154,93,ltr_simple,True,False,408.3795
+hdmi,2317214,96,simple,True,False,407.96423,96,ltr_simple,True,False,408.33218
+hdmi,2317775,97,simple,True,False,407.96423,97,ltr_simple,True,False,408.33218
+hdmi,2319285,103,simple,True,False,407.9612,103,ltr_simple,True,False,408.32916
+hdmi,2634897,123,simple,True,False,407.96054,123,ltr_simple,True,False,408.3285
+hdmi,2577261,126,simple,True,False,407.95755,126,ltr_simple,True,False,408.3255
+hdmi,2634915,133,simple,True,False,407.95755,133,ltr_simple,True,False,408.3255
+hdmi,2634997,134,simple,True,False,407.95755,134,ltr_simple,True,False,408.3255
+hdmi,9856884,138,simple,True,False,407.95755,138,ltr_simple,True,False,408.3255
+hdmi,9660825,142,simple,True,False,407.95728,142,ltr_simple,True,False,408.32523
+hdmi,2634788,143,simple,True,False,407.95425,143,ltr_simple,True,False,408.3222
+hdmi,1198637,144,simple,True,False,391.0068,144,ltr_simple,True,False,391.37476
+hdmi,2730827,145,simple,True,False,391.0068,145,ltr_simple,True,False,391.37476
+hdmi,3179233,151,simple,True,False,391.0018,151,ltr_simple,True,False,391.36975
+hdmi,2343706,161,simple,True,False,389.80914,161,ltr_simple,True,False,390.1771
+hdmi,1109608,162,simple,True,False,389.7822,162,ltr_simple,True,False,390.15015
+hdmi,9660537,163,simple,True,False,389.77612,163,ltr_simple,True,False,390.14407
+hdmi,9510825,165,simple,True,False,389.7694,165,ltr_simple,True,False,390.13736
+hdmi,1686398,167,simple,True,False,389.76813,167,ltr_simple,True,False,390.13608
+hdmi,1155988,177,simple,True,False,389.76642,177,ltr_simple,True,False,390.13437
+hdmi,1686403,195,simple,True,False,389.76614,195,ltr_simple,True,False,390.1341
+hdmi,8880918,221,simple,True,False,373.12735,221,ltr_simple,True,False,373.4953
+hdmi,1087684,222,simple,True,False,373.12537,222,ltr_simple,True,False,373.49332
+hdmi,8426223,262,simple,True,False,373.12234,262,ltr_simple,True,False,373.4903
+hdmi,1176135,281,simple,True,False,360.64322,281,ltr_simple,True,False,361.01117
+hdmi,8479158,289,simple,True,False,357.86594,289,ltr_simple,True,False,358.2339
+hdmi,9892794,294,simple,True,False,357.85294,294,ltr_simple,True,False,358.2209
+hdmi,2925101,308,simple,True,False,357.84995,308,ltr_simple,True,False,358.2179
+hdmi,9388959,353,simple,True,False,343.77866,353,ltr_simple,True,False,344.1466
+hdmi,3082116,391,simple,True,False,331.76508,391,ltr_simple,True,False,332.13303
+hdmi,8993388,399,simple,True,False,330.79266,399,ltr_simple,True,False,331.1606
+hdmi,9388968,400,simple,True,False,330.78928,400,ltr_simple,True,False,331.15723
+hdmi,8989614,401,simple,True,False,330.76486,401,ltr_simple,True,False,331.1328
+hdmi,8657982,428,simple,True,False,319.0158,428,ltr_simple,True,False,319.38376
+hdmi,9510745,431,simple,True,False,318.70322,431,ltr_simple,True,False,319.07117
+hdmi,9510727,432,simple,True,False,318.7002,432,ltr_simple,True,False,319.06815
+hdmi,9510781,434,simple,True,False,318.7002,434,ltr_simple,True,False,319.06815
+hdmi,1085491,446,simple,True,False,309.6476,446,ltr_simple,True,False,310.01556
+hdmi,9513993,451,simple,True,False,307.4869,451,ltr_simple,True,False,307.85486
+65vt30,2307923,1,simple,True,False,1.0,1,ltr_simple,True,False,1.367943
+sd memory,8854714,38,simple,True,False,365.53662,38,ltr_simple,True,False,365.90457
+sd memory,9215725,112,simple,True,False,26.608095,112,ltr_simple,True,False,26.976038
+sd memory,9046196,144,simple,True,False,11.870177,144,ltr_simple,True,False,12.23812
+Garment steamer,6222679,8,simple,True,False,1176.7369,8,ltr_simple,True,False,1177.1295
+Garment steamer,1148069,9,simple,True,False,1126.4966,9,ltr_simple,True,False,1126.9865
+Garment steamer,3254328,13,simple,True,False,69.20193,13,ltr_simple,True,False,69.56987
+Garment steamer,9372957,17,simple,True,False,0.5,17,ltr_simple,True,False,0.86794305
+prince,8273682,8,simple,True,False,567.9376,8,ltr_simple,True,False,568.30554
+prince,2413086,11,simple,True,False,544.347,11,ltr_simple,True,False,544.7149
+prince,9691536,17,simple,True,False,544.308,17,ltr_simple,True,False,544.6759
+prince,9691554,31,simple,True,False,519.82495,31,ltr_simple,True,False,520.1929
+prince,3021235,53,simple,True,False,400.02606,53,ltr_simple,True,False,400.394
+sd memory card,8854714,35,simple,True,False,482.96426,35,ltr_simple,True,False,483.33838
+sd memory card,9215725,111,simple,True,False,35.482082,111,ltr_simple,True,False,35.850025
+sd memory card,9046196,329,simple,True,False,6.833915,329,ltr_simple,True,False,7.201858
+sd memory card,2300462,450,simple,True,False,6.2725644,450,ltr_simple,True,False,6.640507
+sd memory card,9226964,453,simple,True,False,6.2725644,453,ltr_simple,True,False,6.640507
+Tablet pc,3258679,29,simple,True,False,467.26532,29,ltr_simple,True,False,467.63327
+Tablet pc,2903297,135,simple,True,False,0.16250059,135,ltr_simple,True,False,0.5304436
+Vaccum cleaners,2088186,479,simple,True,True,0.045004487,479,ltr_simple,True,True,0.4129475
+memory,9846914,6,simple,True,False,248.21904,6,ltr_simple,True,False,248.58699
+memory,1372137,370,simple,True,False,210.20801,370,ltr_simple,True,False,210.57596
+memory,1370651,456,simple,True,False,210.20801,456,ltr_simple,True,False,210.57596
+ipod dock,2613093,5,simple,True,False,423.16586,5,ltr_simple,True,False,423.5338
+ipod dock,8647896,6,simple,True,False,423.16156,6,ltr_simple,True,False,423.5295
+ipod dock,9185268,16,simple,True,False,400.4124,16,ltr_simple,True,False,400.78036
+ipod dock,3157662,33,simple,True,False,379.98743,33,ltr_simple,True,False,380.35538
+ipod dock,9773885,35,simple,True,False,361.58643,35,ltr_simple,True,False,361.95438
+ipod dock,9728489,37,simple,True,False,361.55685,37,ltr_simple,True,False,361.9248
+ipod dock,9664579,88,simple,True,False,329.58902,88,ltr_simple,True,False,329.95697
+ipod dock,9846705,90,simple,True,False,329.582,90,ltr_simple,True,False,329.94995
+ipod dock,9326455,94,simple,True,False,329.57602,94,ltr_simple,True,False,329.94397
+ipod dock,2141106,142,simple,True,False,302.85294,142,ltr_simple,True,False,303.2209
+ipod dock,2355116,145,simple,True,False,302.80276,145,ltr_simple,True,False,303.17072
+ipod dock,9516936,173,simple,True,False,52.63806,173,ltr_simple,True,False,53.006004
+ipod dock,1997075,219,simple,True,False,39.778183,219,ltr_simple,True,False,40.146126
+ipod dock,1997093,262,simple,True,False,35.69748,262,ltr_simple,True,False,36.065422
+ipod dock,1997057,263,simple,True,False,35.69748,263,ltr_simple,True,False,36.065422
+ipod dock,2544233,277,simple,True,False,34.529026,277,ltr_simple,True,False,34.89697
+ipod dock,2750648,282,simple,True,False,33.970802,282,ltr_simple,True,False,34.338745
+ipod dock,2701079,283,simple,True,False,33.970802,283,ltr_simple,True,False,34.338745
+ipod dock,9904981,299,simple,True,False,32.410103,299,ltr_simple,True,False,32.778046
+ipod dock,3316142,300,simple,True,False,32.404102,300,ltr_simple,True,False,32.772045
+ipod dock,2171085,309,simple,True,False,32.045532,309,ltr_simple,True,False,32.413475
+ipod dock,2239323,312,simple,True,False,31.80401,312,ltr_simple,True,False,32.171955
+ipod dock,8872963,408,simple,True,False,24.960958,408,ltr_simple,True,False,25.328901
+Clerks,9704268,1,simple,True,False,836.47675,1,ltr_simple,True,False,836.84467
+lost,9649234,14,simple,True,False,543.18085,14,ltr_simple,True,False,543.54877
+lost,9417231,40,simple,True,False,497.18903,40,ltr_simple,True,False,497.55698
+lost,9935318,63,simple,True,False,409.37332,63,ltr_simple,True,False,409.74127
+nvidia,9802793,11,simple,True,False,419.52127,11,ltr_simple,True,False,419.88922
+nvidia,9539671,24,simple,True,False,375.25095,24,ltr_simple,True,False,375.6189
+nvidia,1338034,25,simple,True,False,375.24295,25,ltr_simple,True,False,375.6109
+nvidia,9957955,40,simple,True,False,364.26358,40,ltr_simple,True,False,364.63153
+nvidia,2869502,48,simple,True,False,362.51212,48,ltr_simple,True,False,362.88007
+nvidia,1234118,49,simple,True,False,362.48914,49,ltr_simple,True,False,362.8571
+nvidia,2734077,82,simple,True,False,351.6321,82,ltr_simple,True,False,352.00006
+nvidia,3026124,83,simple,True,False,351.6011,83,ltr_simple,True,False,351.96906
+nvidia,9957982,96,simple,True,False,350.6898,96,ltr_simple,True,False,351.05774
+nvidia,3195079,108,simple,True,False,342.33707,108,ltr_simple,True,False,342.70502
+nvidia,2146823,112,simple,True,False,339.95465,112,ltr_simple,True,False,340.3226
+nvidia,2375089,113,simple,True,False,339.91565,113,ltr_simple,True,False,340.2836
+nvidia,2994312,124,simple,True,False,331.06494,124,ltr_simple,True,False,331.4329
+nvidia,3195051,125,simple,True,False,331.05695,125,ltr_simple,True,False,331.4249
+nvidia,3195088,127,simple,True,False,328.95035,127,ltr_simple,True,False,329.3183
+nvidia,3243146,129,simple,True,False,328.94235,129,ltr_simple,True,False,329.3103
+Transformers,8321425,5,simple,True,False,640.90656,5,ltr_simple,True,False,641.2745
+Transformers,9893408,8,simple,True,False,609.52905,8,ltr_simple,True,False,609.897
+Transformers,2832041,9,simple,True,False,609.5247,9,ltr_simple,True,False,609.89264
+Transformers,2832069,16,simple,True,False,581.07184,16,ltr_simple,True,False,581.43976
+Transformers,9893375,23,simple,True,False,555.16473,23,ltr_simple,True,False,555.53265
+Transformers,2248408,26,simple,True,False,531.53174,26,ltr_simple,True,False,531.89966
+Transformers,2248232,28,simple,True,False,531.47046,28,ltr_simple,True,False,531.8384
+Transformers,2248426,35,simple,True,False,471.12442,35,ltr_simple,True,False,471.49237
+Transformers,3086228,40,simple,True,False,471.1149,40,ltr_simple,True,False,471.48285
+speaker,1166875,48,simple,True,False,323.3286,48,ltr_simple,True,False,323.69656
+speaker,2629895,86,simple,True,False,323.3258,86,ltr_simple,True,False,323.69376
+speaker,8428551,111,simple,True,False,323.3233,111,ltr_simple,True,False,323.69125
+speaker,2683194,487,simple,True,False,281.91763,487,ltr_simple,True,False,282.28558
+Swann,9910337,35,simple,True,False,521.9324,35,ltr_simple,True,False,522.3003
+Swann,2753202,37,simple,True,False,500.75717,37,ltr_simple,True,False,501.12512
+Swann,2753211,38,simple,True,False,500.75717,38,ltr_simple,True,False,501.12512
+network cable,9695648,1,simple,True,False,685.3299,1,ltr_simple,True,False,685.6978
+network cable,9737423,11,simple,True,False,654.7733,11,ltr_simple,True,False,655.14124
+network cable,9737478,13,simple,True,False,654.71735,13,ltr_simple,True,False,655.08527
+network cable,9737354,14,simple,True,False,654.7033,14,ltr_simple,True,False,655.0712
+network cable,9737496,15,simple,True,False,654.7033,15,ltr_simple,True,False,655.0712
+network cable,1983051,40,simple,True,False,582.88586,40,ltr_simple,True,False,583.2538
+network cable,1982944,41,simple,True,False,582.8579,41,ltr_simple,True,False,583.2258
+network cable,9191821,58,simple,True,False,470.16293,58,ltr_simple,True,False,470.53088
+network cable,2427195,154,simple,True,False,0.09687056,154,ltr_simple,True,False,0.4648136
+network cable,7384314,155,simple,True,False,0.09687056,155,ltr_simple,True,False,0.4648136
+speaker stands,5923888,2,simple,True,False,837.22565,2,ltr_simple,True,False,837.59357
+speaker stands,5590489,13,simple,True,False,798.39404,13,ltr_simple,True,False,798.76196
+speaker stands,9693225,15,simple,True,False,798.1531,15,ltr_simple,True,False,798.521
+speaker stands,4966754,28,simple,True,False,762.6154,28,ltr_simple,True,False,762.98334
+speaker stands,9693243,40,simple,True,False,731.5199,40,ltr_simple,True,False,731.8878
+speaker stands,9163193,79,simple,True,False,89.96848,79,ltr_simple,True,False,90.336426
+speaker stands,4349351,128,simple,True,False,24.543568,128,ltr_simple,True,False,24.91151
+speaker stands,2205034,190,simple,True,False,0.11285795,190,ltr_simple,True,False,0.480801
+playstation 3,1229028,20,simple,True,False,389.69406,20,ltr_simple,True,False,390.062
+playstation 3,3668284,54,simple,True,False,364.29715,54,ltr_simple,True,False,364.6651
+playstation 3,2541209,59,simple,True,False,363.47415,59,ltr_simple,True,False,363.8421
+playstation 3,2758067,84,simple,True,False,363.47214,84,ltr_simple,True,False,363.8401
+playstation 3,2704076,174,simple,True,False,340.57364,174,ltr_simple,True,False,340.9416
+playstation 3,2375201,175,simple,True,False,340.57166,175,ltr_simple,True,False,340.9396
+playstation 3,2978363,284,simple,True,False,330.31766,284,ltr_simple,True,False,330.6856
+playstation 3,9215235,421,simple,True,False,320.3794,421,ltr_simple,True,False,320.74734
+playstation 3,8208389,454,simple,True,False,306.6577,454,ltr_simple,True,False,307.05692
+playstation 3,9274714,455,simple,True,False,306.65173,455,ltr_simple,True,False,307.02472
+cables,1087684,7,simple,True,False,537.54517,7,ltr_simple,True,False,537.9131
+cables,2636986,24,simple,True,False,495.24957,24,ltr_simple,True,False,495.61752
+cables,8905839,285,simple,True,False,46.382942,285,ltr_simple,True,False,46.750885
+cables,2648583,286,simple,True,False,46.374943,286,ltr_simple,True,False,46.742886
+cables,9855349,483,simple,True,False,46.36594,483,ltr_simple,True,False,46.733883
+palm,2903303,2,simple,True,False,637.01746,2,ltr_simple,True,False,637.3854
+palm,2461356,3,simple,True,False,636.8927,3,ltr_simple,True,False,637.2606
+palm,2462646,4,simple,True,False,636.8927,4,ltr_simple,True,False,637.2606
+palm,2649282,11,simple,True,False,594.9129,11,ltr_simple,True,False,595.2808
+palm,3039252,16,simple,True,False,539.43195,16,ltr_simple,True,False,539.79987
+palm,3439221,28,simple,True,False,515.3156,28,ltr_simple,True,False,515.68353
+palm,9871731,30,simple,True,False,493.33038,30,ltr_simple,True,False,493.69833
+palm,9871931,31,simple,True,False,493.33038,31,ltr_simple,True,False,493.69833
+palm,9523839,43,simple,True,False,473.16754,43,ltr_simple,True,False,473.5355
+palm,1266601,52,simple,True,False,454.51144,52,ltr_simple,True,False,454.8794
+palm,9701076,78,simple,True,False,406.58252,78,ltr_simple,True,False,406.95047
+disturbia,8234092,15,simple,True,False,0.017,15,ltr_simple,True,False,0.384943
+Ipad,2678269,2,simple,True,False,388.48108,2,ltr_simple,True,False,388.94318
+Ipad,1271742,22,simple,True,False,367.6858,22,ltr_simple,True,False,368.05374
+Ipad,2678393,92,simple,True,False,345.95383,92,ltr_simple,True,False,346.32336
+Ipad,3086761,98,simple,True,False,345.95145,98,ltr_simple,True,False,346.3194
+Ipad,2318055,161,simple,True,False,337.7714,161,ltr_simple,True,False,338.17203
+Ipad,2343184,177,simple,True,False,337.7691,177,ltr_simple,True,False,338.13705
+Ipad,2490083,228,simple,True,False,331.4681,228,ltr_simple,True,False,331.85004
+Ipad,2596705,280,simple,True,False,322.51596,280,ltr_simple,True,False,322.8839
+Ipad,9889715,382,simple,True,False,304.89294,382,ltr_simple,True,False,305.2609
+Ipad,2538172,385,simple,True,False,292.4154,385,ltr_simple,True,False,292.79733
+Ipad,2343263,388,simple,True,False,292.4138,388,ltr_simple,True,False,292.78174
+Ipad,2330145,389,simple,True,False,292.4128,389,ltr_simple,True,False,292.78076
+Ipad,2330321,390,simple,True,False,292.4128,390,ltr_simple,True,False,292.78076
+Ipad,2319063,407,simple,True,False,292.4114,407,ltr_simple,True,False,292.77936
+Ipad,3459418,476,simple,True,False,292.4104,476,ltr_simple,True,False,292.77835
+iPod nano arm,1222744,431,simple,True,True,13.8853655,431,ltr_simple,True,True,14.253308
+stands,2534255,192,simple,True,False,54.418137,192,ltr_simple,True,False,54.78608
+stands,7903227,212,simple,True,False,51.190796,212,ltr_simple,True,False,51.55874
+stands,1557882,249,simple,True,False,51.164795,249,ltr_simple,True,False,51.532738
+stands,9346264,331,simple,True,False,48.3175,331,ltr_simple,True,False,48.687027
+klipsch,9422369,2,simple,True,False,506.30243,2,ltr_simple,True,False,506.7374
+klipsch,9502629,3,simple,True,False,506.13843,3,ltr_simple,True,False,506.50638
+klipsch,9502488,4,simple,True,False,506.13544,4,ltr_simple,True,False,506.5034
+klipsch,9999158600050005,8,simple,True,False,506.10986,8,ltr_simple,True,False,506.4778
+klipsch,2138079,16,simple,True,False,483.56213,16,ltr_simple,True,False,483.93008
+klipsch,9849748,25,simple,True,False,483.53415,25,ltr_simple,True,False,483.9021
+klipsch,2989089,27,simple,True,False,463.28018,27,ltr_simple,True,False,463.64813
+klipsch,9388833,28,simple,True,False,462.93286,28,ltr_simple,True,False,463.3008
+klipsch,8988955,30,simple,True,False,462.90085,30,ltr_simple,True,False,463.2688
+klipsch,8988991,31,simple,True,False,462.90085,31,ltr_simple,True,False,463.2688
+klipsch,3021778,32,simple,True,False,462.8975,32,ltr_simple,True,False,463.26544
+klipsch,2989052,36,simple,True,False,462.8935,36,ltr_simple,True,False,463.26144
+klipsch,2989061,37,simple,True,False,462.8935,37,ltr_simple,True,False,463.26144
+klipsch,2138273,45,simple,True,False,443.98215,45,ltr_simple,True,False,444.3501
+klipsch,2147049,46,simple,True,False,443.96744,46,ltr_simple,True,False,444.3354
+klipsch,9999160100050002,47,simple,True,False,443.95413,47,ltr_simple,True,False,444.32208
+klipsch,2239129,48,simple,True,False,443.9541,48,ltr_simple,True,False,444.32205
+klipsch,9999160100050001,49,simple,True,False,443.94714,49,ltr_simple,True,False,444.3151
+klipsch,9382232,61,simple,True,False,426.60788,61,ltr_simple,True,False,427.04285
+klipsch,9999163600050021,62,simple,True,False,426.49457,62,ltr_simple,True,False,426.86252
+klipsch,2138167,63,simple,True,False,426.48056,63,ltr_simple,True,False,426.8485
+klipsch,2138237,64,simple,True,False,426.48056,64,ltr_simple,True,False,426.8485
+klipsch,8987484,73,simple,True,False,410.37885,73,ltr_simple,True,False,410.7468
+klipsch,8987509,74,simple,True,False,410.35785,74,ltr_simple,True,False,410.7258
+klipsch,8988928,75,simple,True,False,410.34384,75,ltr_simple,True,False,410.7118
+klipsch,9845706,90,simple,True,False,384.23087,90,ltr_simple,True,False,384.60202
+klipsch,8421754,91,simple,True,False,381.47028,91,ltr_simple,True,False,381.84143
+klipsch,9385747,111,simple,True,False,368.54114,111,ltr_simple,True,False,368.9091
+klipsch,9388879,112,simple,True,False,368.51212,112,ltr_simple,True,False,368.88007
+Kicker,9647572,2,simple,True,False,497.16635,2,ltr_simple,True,False,497.5343
+Kicker,9906158,6,simple,True,False,497.16635,6,ltr_simple,True,False,497.5343
+Kicker,9976844,9,simple,True,False,472.83243,9,ltr_simple,True,False,473.20038
+Kicker,2304292,11,simple,True,False,472.82645,11,ltr_simple,True,False,473.1944
+Kicker,9905871,20,simple,True,False,472.82184,20,ltr_simple,True,False,473.1898
+Kicker,1997288,36,simple,True,False,450.7912,36,ltr_simple,True,False,451.15915
+Kicker,9647509,38,simple,True,False,450.7582,38,ltr_simple,True,False,451.12616
+Kicker,9906798,39,simple,True,False,450.7582,39,ltr_simple,True,False,451.12616
+Kicker,3726621,43,simple,True,False,450.75427,43,ltr_simple,True,False,451.12222
+Kicker,9999142900050044,45,simple,True,False,450.7532,45,ltr_simple,True,False,451.12115
+Kicker,9906282,47,simple,True,False,450.7532,47,ltr_simple,True,False,451.12115
+Kicker,9647554,48,simple,True,False,450.7502,48,ltr_simple,True,False,451.11816
+Kicker,1685168,50,simple,True,False,430.6589,50,ltr_simple,True,False,431.02686
+Kicker,9647624,51,simple,True,False,430.6583,51,ltr_simple,True,False,431.02625
+Kicker,9647615,52,simple,True,False,430.6533,52,ltr_simple,True,False,431.02124
+Kicker,9894213,78,simple,True,False,412.33624,78,ltr_simple,True,False,412.7042
+Kicker,9906546,86,simple,True,False,412.26398,86,ltr_simple,True,False,412.63193
+Kicker,9906707,91,simple,True,False,412.26096,91,ltr_simple,True,False,412.6289
+Kicker,9892921,100,simple,True,False,395.52634,100,ltr_simple,True,False,395.8943
+Kicker,9892463,101,simple,True,False,395.42133,101,ltr_simple,True,False,395.78928
+Kicker,1752057,102,simple,True,False,395.4003,102,ltr_simple,True,False,395.76825
+Kicker,9976799,104,simple,True,False,395.38956,104,ltr_simple,True,False,395.7575
+Kicker,2304459,106,simple,True,False,395.3863,106,ltr_simple,True,False,395.75424
+Kicker,1677236,107,simple,True,False,395.3863,107,ltr_simple,True,False,395.75424
+Kicker,9906228,108,simple,True,False,395.3863,108,ltr_simple,True,False,395.75424
+Kicker,2304592,110,simple,True,False,395.38333,110,ltr_simple,True,False,395.75128
+Kicker,9925092,116,simple,True,False,395.3833,116,ltr_simple,True,False,395.75125
+Kicker,9894231,127,simple,True,False,379.87744,127,ltr_simple,True,False,380.2454
+Kicker,9894268,128,simple,True,False,379.86343,128,ltr_simple,True,False,380.23138
+Kicker,9894295,129,simple,True,False,379.86343,129,ltr_simple,True,False,380.23138
+Kicker,9892994,130,simple,True,False,379.84744,130,ltr_simple,True,False,380.2154
+Kicker,9924676,131,simple,True,False,379.84177,131,ltr_simple,True,False,380.20972
+Kicker,2304238,132,simple,True,False,379.84143,132,ltr_simple,True,False,380.20938
+Kicker,1752075,133,simple,True,False,379.84143,133,ltr_simple,True,False,380.20938
+Kicker,1752066,135,simple,True,False,379.83643,135,ltr_simple,True,False,380.20438
+Kicker,9938733,136,simple,True,False,379.83643,136,ltr_simple,True,False,380.20438
+Kicker,9906255,137,simple,True,False,379.83643,137,ltr_simple,True,False,380.20438
+Kicker,9924649,138,simple,True,False,379.83575,138,ltr_simple,True,False,380.2037
+Kicker,2304399,143,simple,True,False,379.83044,143,ltr_simple,True,False,380.1984
+Kicker,2304201,157,simple,True,False,379.82776,157,ltr_simple,True,False,380.1957
+Kicker,1671393,162,simple,True,False,365.47186,162,ltr_simple,True,False,365.8398
+Kicker,9924694,163,simple,True,False,365.46286,163,ltr_simple,True,False,365.8308
+Kicker,2304177,164,simple,True,False,365.45786,164,ltr_simple,True,False,365.8258
+Kicker,2304229,171,simple,True,False,365.45486,171,ltr_simple,True,False,365.8228
+Kicker,9925569,179,simple,True,False,365.45486,179,ltr_simple,True,False,365.8228
+Kicker,2304265,183,simple,True,False,352.14178,183,ltr_simple,True,False,352.50974
+Kicker,9938715,185,simple,True,False,352.1338,185,ltr_simple,True,False,352.50174
+Kicker,2304626,188,simple,True,False,352.1308,188,ltr_simple,True,False,352.49875
+Kicker,2304547,198,simple,True,False,352.1278,198,ltr_simple,True,False,352.49576
+Kicker,1671417,216,simple,True,False,339.76846,216,ltr_simple,True,False,340.1364
+Kicker,1677245,217,simple,True,False,339.7635,217,ltr_simple,True,False,340.13144
+Kicker,2304353,218,simple,True,False,339.75546,218,ltr_simple,True,False,340.1234
+Kicker,1671453,219,simple,True,False,339.75546,219,ltr_simple,True,False,340.1234
+Kicker,2304574,220,simple,True,False,339.7517,220,ltr_simple,True,False,340.11966
+Kicker,9976862,222,simple,True,False,339.7437,222,ltr_simple,True,False,340.11166
+Kicker,2304274,224,simple,True,False,339.74072,224,ltr_simple,True,False,340.10867
+Kicker,9925083,235,simple,True,False,339.73846,235,ltr_simple,True,False,340.1064
+Kicker,1685131,238,simple,True,False,328.2214,238,ltr_simple,True,False,328.58936
+Kicker,2304283,239,simple,True,False,328.21042,239,ltr_simple,True,False,328.57837
+Kicker,2304431,241,simple,True,False,328.1964,241,ltr_simple,True,False,328.56436
+Kicker,2304404,258,simple,True,False,317.4353,258,ltr_simple,True,False,317.80325
+Kicker,1685186,259,simple,True,False,317.4113,259,ltr_simple,True,False,317.77924
+Kicker,9760439,294,simple,True,False,0.003,294,ltr_simple,True,False,0.370943
+shure,1118988,12,simple,True,False,579.51117,12,ltr_simple,True,False,579.8791
+shure,7535438,13,simple,True,False,579.3852,13,ltr_simple,True,False,579.7531
+shure,7215596,22,simple,True,False,579.36816,22,ltr_simple,True,False,579.7361
+shure,2882096,34,simple,True,False,551.2133,34,ltr_simple,True,False,551.58124
+shure,2891528,35,simple,True,False,551.0703,35,ltr_simple,True,False,551.43823
+shure,2891494,36,simple,True,False,551.0203,36,ltr_simple,True,False,551.38824
+shure,7535385,37,simple,True,False,551.0156,37,ltr_simple,True,False,551.38354
+shure,2891476,39,simple,True,False,551.01135,39,ltr_simple,True,False,551.3793
+shure,2882078,85,simple,True,False,501.8628,85,ltr_simple,True,False,502.23074
+shure,2882209,87,simple,True,False,501.85477,87,ltr_simple,True,False,502.22272
+shure,7832269,91,simple,True,False,501.85107,91,ltr_simple,True,False,502.21902
+shure,8234047,375,simple,True,False,0.008,375,ltr_simple,True,False,0.375943
+refridgerator,1997075,2,simple,True,False,0.089,2,ltr_simple,True,False,0.45694304
+refridgerator,9793721,4,simple,True,False,0.07416996,4,ltr_simple,True,False,0.44211298
+refridgerator,7015981,7,simple,True,False,0.064549595,7,ltr_simple,True,False,0.4324926
+refridgerator,9956522,10,simple,True,False,0.05554959,10,ltr_simple,True,False,0.4234926
+refridgerator,9089657,11,simple,True,False,0.05402743,11,ltr_simple,True,False,0.42197046
+refridgerator,3109205,96,simple,True,False,0.03323432,96,ltr_simple,True,False,0.40117735
+refridgerator,3109214,97,simple,True,False,0.03323432,97,ltr_simple,True,False,0.40117735
+refridgerator,9510004,150,simple,True,False,0.033169962,150,ltr_simple,True,False,0.40111297
+refridgerator,2817097,449,simple,True,False,0.03154959,449,ltr_simple,True,False,0.39949262
+lenovo,1747125,18,simple,True,False,462.00854,18,ltr_simple,True,False,462.3765
+lenovo,9695375,21,simple,True,False,461.99408,21,ltr_simple,True,False,462.36203
+lenovo,3457101,56,simple,True,False,386.3234,56,ltr_simple,True,False,386.69135
+lenovo,3074132,64,simple,True,False,361.37137,64,ltr_simple,True,False,361.73932
+lenovo,3600615,108,simple,True,False,357.08344,108,ltr_simple,True,False,357.4514
+lenovo,1418703,122,simple,True,False,344.13132,122,ltr_simple,True,False,344.49927
+lenovo,3600724,126,simple,True,False,344.06177,126,ltr_simple,True,False,344.42972
+lenovo,3600733,127,simple,True,False,344.06177,127,ltr_simple,True,False,344.42972
+lenovo,3558127,148,simple,True,False,331.95636,148,ltr_simple,True,False,332.3243
+lenovo,3600633,149,simple,True,False,331.95636,149,ltr_simple,True,False,332.3243
+lenovo,9999167400050001,153,simple,True,False,324.85645,153,ltr_simple,True,False,325.2244
+lenovo,2677297,161,simple,True,False,320.74567,161,ltr_simple,True,False,321.11362
+lenovo,2817228,162,simple,True,False,320.70685,162,ltr_simple,True,False,321.0748
+lenovo,1021064,164,simple,True,False,320.68185,164,ltr_simple,True,False,321.0498
+lenovo,3600624,166,simple,True,False,320.67984,166,ltr_simple,True,False,321.0478
+lenovo,3600706,173,simple,True,False,320.67767,173,ltr_simple,True,False,321.04562
+lenovo,3600697,180,simple,True,False,320.67566,180,ltr_simple,True,False,321.0436
+lenovo,9049996,183,simple,True,False,313.43124,183,ltr_simple,True,False,313.7992
+lenovo,1485072,185,simple,True,False,311.07144,185,ltr_simple,True,False,311.4394
+lenovo,2677303,200,simple,True,False,310.14877,200,ltr_simple,True,False,310.51672
+lenovo,1774168,217,simple,True,False,310.13477,217,ltr_simple,True,False,310.50272
+lenovo,3600688,221,simple,True,False,310.13477,221,ltr_simple,True,False,310.50272
+lenovo,3457129,234,simple,True,False,300.26846,234,ltr_simple,True,False,300.6364
+lenovo,3179912,245,simple,True,False,291.0309,245,ltr_simple,True,False,291.39886
+lenovo,2817121,246,simple,True,False,291.00894,246,ltr_simple,True,False,291.3769
+lenovo,1972744,277,simple,True,False,266.36874,277,ltr_simple,True,False,266.7367
+lenovo,2731265,286,simple,True,False,259.199,286,ltr_simple,True,False,259.57434
+lenovo,3504409,287,simple,True,False,259.098,287,ltr_simple,True,False,259.48648
+lenovo,2236735,289,simple,True,False,259.05402,289,ltr_simple,True,False,259.42197
+hp laptops,9354272,2,simple,True,False,604.8423,2,ltr_simple,True,False,605.2102
+hp laptops,3439063,57,simple,True,False,59.82728,57,ltr_simple,True,False,60.19522
+hp laptops,1636167,95,simple,True,False,51.209316,95,ltr_simple,True,False,51.58464
+hp laptops,3184708,274,simple,True,False,35.147007,274,ltr_simple,True,False,35.51495
+hp laptops,3441304,305,simple,True,False,33.4747,305,ltr_simple,True,False,33.842644
+hp laptops,3441428,306,simple,True,False,33.4747,306,ltr_simple,True,False,33.842644
+hp laptops,3184308,344,simple,True,False,30.198368,344,ltr_simple,True,False,30.56631
+hp laptops,3720363,346,simple,True,False,30.148369,346,ltr_simple,True,False,30.516312
+hp laptops,3569026,347,simple,True,False,30.148369,347,ltr_simple,True,False,30.516312
+hp laptops,9556376,478,simple,True,False,28.345524,478,ltr_simple,True,False,28.713467
+hp laptops,2678499,480,simple,True,False,28.237051,480,ltr_simple,True,False,28.618973
+hp laptops,2754104,481,simple,True,False,28.19905,481,ltr_simple,True,False,28.566994
+hp laptops,3440705,497,simple,True,False,28.166052,497,ltr_simple,True,False,28.533995
+Kinect,3000047,1,simple,True,False,661.2284,1,ltr_simple,True,False,661.5963
+Kinect,1036858,4,simple,True,False,628.8684,4,ltr_simple,True,False,629.56915
+Kinect,9999150900050000,10,simple,True,False,599.1016,10,ltr_simple,True,False,599.46954
+Kinect,3521258,11,simple,True,False,599.083,11,ltr_simple,True,False,599.4509
+Kinect,1219686,15,simple,True,False,572.4333,15,ltr_simple,True,False,572.93567
+Kinect,1162439,18,simple,True,False,548.4627,18,ltr_simple,True,False,549.01654
+Kinect,1238763,19,simple,True,False,548.3797,19,ltr_simple,True,False,548.7476
+Kinect,1974833,21,simple,True,False,547.9469,21,ltr_simple,True,False,548.3148
+Kinect,3526183,23,simple,True,False,547.9219,23,ltr_simple,True,False,548.2898
+Kinect,3107795,24,simple,True,False,504.8899,24,ltr_simple,True,False,505.25784
+Kinect,3104255,26,simple,True,False,487.19345,26,ltr_simple,True,False,487.5614
+Flyers,2920382,14,simple,True,False,595.1081,14,ltr_simple,True,False,595.476
+Flyers,2844294,19,simple,True,False,568.567,19,ltr_simple,True,False,568.93494
+mini speakers,2873147,3,simple,True,False,695.79297,3,ltr_simple,True,False,696.1609
+mini speakers,1144355,6,simple,True,False,474.61597,6,ltr_simple,True,False,474.98392
+mini speakers,8989197,51,simple,True,False,13.05697,51,ltr_simple,True,False,13.424912
+mini speakers,1160608,82,simple,True,False,0.094485514,82,ltr_simple,True,False,0.46242854
+iPad cases,1271742,3,simple,True,False,58.045776,3,ltr_simple,True,False,58.41372
+iPad cases,2319054,46,simple,True,False,43.616875,46,ltr_simple,True,False,43.984818
+iPad cases,2091778,58,simple,True,False,33.657394,58,ltr_simple,True,False,34.025337
+iPad cases,2319063,108,simple,True,False,19.782839,108,ltr_simple,True,False,20.150782
+iPad cases,3491113,119,simple,True,False,19.356916,119,ltr_simple,True,False,19.72486
+iPad cases,2490083,131,simple,True,False,18.355968,131,ltr_simple,True,False,18.73789
+iPad cases,1502231,166,simple,True,False,16.795923,166,ltr_simple,True,False,17.163866
+iPad cases,2701307,169,simple,True,False,16.67251,169,ltr_simple,True,False,17.040453
+iPad cases,1259407,170,simple,True,False,16.66051,170,ltr_simple,True,False,17.028452
+iPad cases,1549152,186,simple,True,False,16.63551,186,ltr_simple,True,False,17.003452
+iPad cases,2986037,199,simple,True,False,16.63551,199,ltr_simple,True,False,17.003452
+iPad cases,2986046,200,simple,True,False,16.63551,200,ltr_simple,True,False,17.003452
+iPad cases,3686161,221,simple,True,False,16.63551,221,ltr_simple,True,False,17.003452
+iPad cases,2642058,227,simple,True,False,15.915052,227,ltr_simple,True,False,16.282995
+iPad cases,2678393,230,simple,True,False,15.593664,230,ltr_simple,True,False,15.963192
+iPad cases,2339659,231,simple,True,False,15.568012,231,ltr_simple,True,False,15.956503
+iPad cases,2318055,321,simple,True,False,14.660822,321,ltr_simple,True,False,15.061461
+iPad cases,2374327,485,simple,True,False,13.01041,485,ltr_simple,True,False,13.378353
+frigidaire,9282812,139,simple,True,False,298.95053,139,ltr_simple,True,False,299.31848
+frigidaire,4210302,165,simple,True,False,298.90405,165,ltr_simple,True,False,299.272
+frigidaire,9756985,282,simple,True,False,286.2163,282,ltr_simple,True,False,286.58426
+frigidaire,9723545,395,simple,True,False,286.1423,395,ltr_simple,True,False,286.51025
+fax machines,8185607,10,simple,True,False,74.875145,10,ltr_simple,True,False,75.24309
+fax machines,9544791,34,simple,True,False,66.79104,34,ltr_simple,True,False,67.15898
+fax machines,8490812,47,simple,True,False,63.518806,47,ltr_simple,True,False,63.88675
+fax machines,8627998,52,simple,True,False,61.367855,52,ltr_simple,True,False,61.735798
+fax machines,9544719,56,simple,True,False,60.01962,56,ltr_simple,True,False,60.38756
+fax machines,9038025,71,simple,True,False,15.557711,71,ltr_simple,True,False,15.925653
+fax machines,9364074,72,simple,True,False,15.461489,72,ltr_simple,True,False,15.829432
+fax machines,7034194,77,simple,True,False,15.370489,77,ltr_simple,True,False,15.738432
+fax machines,9502638,80,simple,True,False,15.361812,80,ltr_simple,True,False,15.729754
+fax machines,8234118,166,simple,True,False,0.091,166,ltr_simple,True,False,0.458943
+blank media,3166193,15,simple,True,False,9.293851,15,ltr_simple,True,False,9.661794
+blank media,3911093,39,simple,True,False,9.180851,39,ltr_simple,True,False,9.548794
+blank media,7141844,76,simple,True,False,0.141,76,ltr_simple,True,False,0.508943
+blank media,4188916,78,simple,True,False,0.099,78,ltr_simple,True,False,0.46694303
+blank media,7141979,79,simple,True,False,0.099,79,ltr_simple,True,False,0.46694303
+blank media,8039829,500,simple,True,False,0.042,500,ltr_simple,True,False,0.409943
+ipad sync cord,1114133,174,simple,True,True,0.050861996,174,ltr_simple,True,True,0.418805
+acer,2824725,2,simple,True,False,503.74918,2,ltr_simple,True,False,504.11713
+acer,3004583,3,simple,True,False,503.74417,3,ltr_simple,True,False,504.11212
+acer,3530362,6,simple,True,False,490.22562,6,ltr_simple,True,False,490.59357
+acer,3530399,8,simple,True,False,490.22562,8,ltr_simple,True,False,490.59357
+acer,2588048,31,simple,True,False,408.89218,31,ltr_simple,True,False,409.26013
+acer,3019221,45,simple,True,False,390.50043,45,ltr_simple,True,False,390.86838
+acer,2512059,116,simple,True,False,359.6267,116,ltr_simple,True,False,360.00864
+acer,1804069,117,simple,True,False,359.5219,117,ltr_simple,True,False,359.90384
+acer,3655778,198,simple,True,False,345.88477,198,ltr_simple,True,False,346.25272
+acer,1804306,211,simple,True,False,333.2786,211,ltr_simple,True,False,333.64655
+acer,2882439,225,simple,True,False,333.27448,225,ltr_simple,True,False,333.64243
+acer,3603066,255,simple,True,False,321.54974,255,ltr_simple,True,False,321.9177
+acer,3603093,256,simple,True,False,321.54974,256,ltr_simple,True,False,321.9177
+acer,1418588,262,simple,True,False,314.73145,262,ltr_simple,True,False,315.0994
+acer,3011201,264,simple,True,False,310.64,264,ltr_simple,True,False,311.00797
+acer,1847928,265,simple,True,False,310.6268,265,ltr_simple,True,False,310.99475
+acer,2882466,266,simple,True,False,310.62585,266,ltr_simple,True,False,310.9938
+acer,3654518,291,simple,True,False,301.29254,291,ltr_simple,True,False,301.6605
+acer,2759288,293,simple,True,False,300.44122,293,ltr_simple,True,False,300.80917
+acer,3584613,298,simple,True,False,300.41223,298,ltr_simple,True,False,300.78018
+acer,2882751,308,simple,True,False,300.40982,308,ltr_simple,True,False,300.77777
+acer,2842569,316,simple,True,False,290.89667,316,ltr_simple,True,False,291.26462
+acer,3649191,321,simple,True,False,290.84802,321,ltr_simple,True,False,291.21597
+acer,3603127,322,simple,True,False,290.84802,322,ltr_simple,True,False,291.21597
+acer,3603136,323,simple,True,False,290.84802,323,ltr_simple,True,False,291.21597
+acer,2882509,345,simple,True,False,265.50458,345,ltr_simple,True,False,265.87253
+acer,2882484,367,simple,True,False,241.50273,367,ltr_simple,True,False,241.87068
+Tv stands,9346264,12,simple,True,False,106.028786,12,ltr_simple,True,False,106.39601
+Tv stands,1114337,13,simple,True,False,105.90878,13,ltr_simple,True,False,106.276726
+Tv stands,9811451,14,simple,True,False,105.85879,14,ltr_simple,True,False,106.22673
+Tv stands,9662517,132,simple,True,False,93.058975,132,ltr_simple,True,False,93.42692
+Tv stands,9846387,133,simple,True,False,93.015976,133,ltr_simple,True,False,93.38392
+Tv stands,1072343,135,simple,True,False,93.00098,135,ltr_simple,True,False,93.36892
+Tv stands,1897049,141,simple,True,False,92.99298,141,ltr_simple,True,False,93.36092
+Tv stands,9342552,173,simple,True,False,92.99298,173,ltr_simple,True,False,93.36092
+Tv stands,9779652,208,simple,True,False,88.84933,208,ltr_simple,True,False,89.21727
+Tv stands,9909507,210,simple,True,False,88.83333,210,ltr_simple,True,False,89.20127
+Tv stands,9985441,211,simple,True,False,88.83333,211,ltr_simple,True,False,89.20127
+Tv stands,1109971,218,simple,True,False,88.81033,218,ltr_simple,True,False,89.178276
+Tv stands,3088174,250,simple,True,False,88.81033,250,ltr_simple,True,False,89.178276
+Tv stands,8181576,253,simple,True,False,88.81033,253,ltr_simple,True,False,89.178276
+Tv stands,9931785,266,simple,True,False,88.81033,266,ltr_simple,True,False,89.178276
+Tv stands,9548929,268,simple,True,False,88.81033,268,ltr_simple,True,False,89.178276
+Tv stands,9740505,274,simple,True,False,88.81033,274,ltr_simple,True,False,89.178276
+Tv stands,9706727,277,simple,True,False,88.81033,277,ltr_simple,True,False,89.178276
+Tv stands,2345164,310,simple,True,False,85.01475,310,ltr_simple,True,False,85.38269
+Tv stands,1019545,311,simple,True,False,85.01075,311,ltr_simple,True,False,85.37869
+Tv stands,8942647,330,simple,True,False,84.98775,330,ltr_simple,True,False,85.35569
+Tv stands,2138625,332,simple,True,False,84.98775,332,ltr_simple,True,False,85.35569
+Tv stands,9967698,367,simple,True,False,84.98775,367,ltr_simple,True,False,85.35569
+Tv stands,8193536,370,simple,True,False,84.089264,370,ltr_simple,True,False,84.510345
+Tv stands,2138607,390,simple,True,False,81.507675,390,ltr_simple,True,False,81.87562
+Tv stands,1109908,394,simple,True,False,81.480675,394,ltr_simple,True,False,81.84862
+Tv stands,2405078,414,simple,True,False,81.480675,414,ltr_simple,True,False,81.84862
+Tv stands,9245195,489,simple,True,False,77.91427,489,ltr_simple,True,False,78.285416
+ipad 2,2374327,4,simple,True,False,367.65283,4,ltr_simple,True,False,368.02078
+ipad 2,2538172,10,simple,True,False,290.39697,10,ltr_simple,True,False,290.77863
+ipad 2,2408224,13,simple,True,False,285.16208,13,ltr_simple,True,False,285.54373
+ipad 2,2343139,15,simple,True,False,284.80838,15,ltr_simple,True,False,285.17633
+ipad 2,2343263,16,simple,True,False,284.80838,16,ltr_simple,True,False,285.17633
+ipad 2,2330145,17,simple,True,False,284.80438,17,ltr_simple,True,False,285.17233
+ipad 2,2330321,18,simple,True,False,284.80438,18,ltr_simple,True,False,285.17233
+ipad 2,2319063,20,simple,True,False,284.80215,20,ltr_simple,True,False,285.1701
+ipad 2,2985135,37,simple,True,False,272.74405,37,ltr_simple,True,False,273.112
+ipad 2,2985144,38,simple,True,False,272.74405,38,ltr_simple,True,False,273.112
+ipad 2,2824421,45,simple,True,False,271.5647,45,ltr_simple,True,False,271.93265
+ipad 2,2339386,57,simple,True,False,270.31714,57,ltr_simple,True,False,270.69907
+ipad 2,1945674,58,simple,True,False,270.31613,58,ltr_simple,True,False,270.69806
+ipad 2,2319133,60,simple,True,False,270.28134,60,ltr_simple,True,False,270.663
+ipad 2,2986037,76,simple,True,False,270.27637,76,ltr_simple,True,False,270.64432
+ipad 2,2850107,77,simple,True,False,270.27536,77,ltr_simple,True,False,270.6433
+ipad 2,2821249,79,simple,True,False,270.27435,79,ltr_simple,True,False,270.6423
+ipad 2,2643288,91,simple,True,False,270.27435,91,ltr_simple,True,False,270.6423
+ipad 2,2629877,131,simple,True,False,260.52118,131,ltr_simple,True,False,260.88913
+ipad 2,2701307,216,simple,True,False,257.18106,216,ltr_simple,True,False,257.549
+ipad 2,2490083,378,simple,True,False,246.11383,378,ltr_simple,True,False,246.5901
+ipad 2,2678269,421,simple,True,False,244.33882,421,ltr_simple,True,False,244.80092
+ipad 2,2678393,430,simple,True,False,241.76593,430,ltr_simple,True,False,242.1352
+ipad 2,2861158,462,simple,True,False,239.34073,462,ltr_simple,True,False,239.70868
+ipad 2,2861176,463,simple,True,False,239.33673,463,ltr_simple,True,False,239.70468
+ipad 2,2318055,492,simple,True,False,231.70744,492,ltr_simple,True,False,232.10808
+Buffalo router,9737372,2,simple,True,False,46.38693,2,ltr_simple,True,False,46.75487
+Buffalo router,9737327,8,simple,True,False,0.7303548,8,ltr_simple,True,False,1.0982978
+battery charger,2702788,1,simple,True,False,685.45557,1,ltr_simple,True,False,685.8235
+battery charger,1209916,2,simple,True,False,685.4336,2,ltr_simple,True,False,685.8015
+battery charger,1012812,23,simple,True,False,618.3249,23,ltr_simple,True,False,618.6928
+battery charger,2193408,40,simple,True,False,539.1571,40,ltr_simple,True,False,539.525
+battery charger,3498374,67,simple,True,False,410.58463,67,ltr_simple,True,False,410.95258
+battery charger,3670088,90,simple,True,False,79.434685,90,ltr_simple,True,False,79.80263
+battery charger,2436397,128,simple,True,False,39.65638,128,ltr_simple,True,False,40.024323
+battery charger,9344024,146,simple,True,False,31.725126,146,ltr_simple,True,False,32.09307
+battery charger,9918214,174,simple,True,False,20.090527,174,ltr_simple,True,False,20.45847
+battery charger,9297076,178,simple,True,False,17.649607,178,ltr_simple,True,False,18.01755
+battery charger,1200742,363,simple,True,False,0.09898113,363,ltr_simple,True,False,0.46692413
+Routers,8998506,1,simple,True,False,72.253914,1,ltr_simple,True,False,72.73415
+Routers,2089361,110,simple,True,False,57.617775,110,ltr_simple,True,False,58.006268
+Routers,2089255,111,simple,True,False,57.588776,111,ltr_simple,True,False,57.97727
+Routers,9928584,140,simple,True,False,57.556774,140,ltr_simple,True,False,57.924717
+Routers,1678271,147,simple,True,False,54.826855,147,ltr_simple,True,False,55.276257
+Routers,2225047,193,simple,True,False,52.453552,193,ltr_simple,True,False,53.084522
+Routers,1208844,194,simple,True,False,52.36655,194,ltr_simple,True,False,52.769276
+Routers,2089103,195,simple,True,False,52.26955,195,ltr_simple,True,False,52.651474
+Routers,2210106,235,simple,True,False,49.991127,235,ltr_simple,True,False,50.386433
+Routers,8669915,238,simple,True,False,49.963127,238,ltr_simple,True,False,50.34505
+Routers,9962417,239,simple,True,False,49.963127,239,ltr_simple,True,False,50.34505
+Routers,3541994,424,simple,True,False,32.827026,424,ltr_simple,True,False,33.19497
+Routers,8206078,427,simple,True,False,32.827026,427,ltr_simple,True,False,33.19497
+voice recorders,1237488,1,simple,True,False,136.39941,1,ltr_simple,True,False,136.76736
+voice recorders,1792142,2,simple,True,False,136.39941,2,ltr_simple,True,False,136.76736
+voice recorders,1792267,3,simple,True,False,136.39941,3,ltr_simple,True,False,136.76736
+voice recorders,1792249,4,simple,True,False,136.3894,4,ltr_simple,True,False,136.75735
+voice recorders,2512465,6,simple,True,False,136.3784,6,ltr_simple,True,False,136.74635
+voice recorders,1792258,29,simple,True,False,136.36841,29,ltr_simple,True,False,136.73636
+voice recorders,2596332,91,simple,True,False,121.01265,91,ltr_simple,True,False,121.38678
+voice recorders,3254955,122,simple,True,False,103.47181,122,ltr_simple,True,False,103.83975
+led tv,9999166300050006,12,simple,True,False,47.39968,12,ltr_simple,True,False,47.767624
+led tv,1275675,32,simple,True,False,31.804012,32,ltr_simple,True,False,32.171955
+led tv,2128276,72,simple,True,False,10.081019,72,ltr_simple,True,False,10.462942
+led tv,2685235,77,simple,True,False,8.683607,77,ltr_simple,True,False,9.058929
+led tv,2685156,87,simple,True,False,6.5999775,87,ltr_simple,True,False,6.9679203
+led tv,2126339,96,simple,True,False,0.07081223,96,ltr_simple,True,False,0.4527347
+Flyer,2607038,2,simple,True,False,620.6145,2,ltr_simple,True,False,620.9824
+Flyer,8343651,9,simple,True,False,594.1126,9,ltr_simple,True,False,594.4805
+Flyer,2390524,10,simple,True,False,570.22174,10,ltr_simple,True,False,570.5929
+Flyer,2634263,11,simple,True,False,569.8937,11,ltr_simple,True,False,570.2616
+Flyer,2842056,114,simple,True,False,0.324,114,ltr_simple,True,False,0.7124909
+Flyer,2817582,115,simple,True,False,0.054,115,ltr_simple,True,False,0.43592247
+Cell phones,9343524,39,simple,True,False,597.5529,39,ltr_simple,True,False,597.92084
+Cell phones,9321307,150,simple,True,False,573.07074,150,ltr_simple,True,False,573.43866
+Cell phones,9372332,271,simple,True,False,550.6034,271,ltr_simple,True,False,550.9713
+hard drives,1252538,60,simple,True,False,76.11222,60,ltr_simple,True,False,76.48016
+hard drives,9548242,383,simple,True,False,68.38212,383,ltr_simple,True,False,68.75006
+hard drives,9481009,393,simple,True,False,68.38212,393,ltr_simple,True,False,68.75006
+dual,4592916,9,simple,True,False,367.2098,9,ltr_simple,True,False,367.57776
+dual,2554009,18,simple,True,False,349.22943,18,ltr_simple,True,False,349.59738
+dual,4708944,52,simple,True,False,332.9678,52,ltr_simple,True,False,333.33575
+dual,1191707,53,simple,True,False,332.9398,53,ltr_simple,True,False,333.30774
+dual,1191097,54,simple,True,False,332.92776,54,ltr_simple,True,False,333.29572
+dual,8188506,63,simple,True,False,332.9178,63,ltr_simple,True,False,333.28574
+dual,9222307,106,simple,True,False,332.91208,106,ltr_simple,True,False,333.28003
+dual,2525266,107,simple,True,False,332.91208,107,ltr_simple,True,False,333.28003
+dual,9375062,110,simple,True,False,332.91208,110,ltr_simple,True,False,333.28003
+dual,9719903,112,simple,True,False,318.1042,112,ltr_simple,True,False,318.47214
+dual,1775149,113,simple,True,False,318.07776,113,ltr_simple,True,False,318.4457
+dual,3586153,149,simple,True,False,318.06717,149,ltr_simple,True,False,318.43512
+dual,9294257,179,simple,True,False,318.06717,179,ltr_simple,True,False,318.43512
+dual,9209251,182,simple,True,False,318.06717,182,ltr_simple,True,False,318.43512
+dual,8886654,199,simple,True,False,304.52682,199,ltr_simple,True,False,304.89478
+dual,2718033,200,simple,True,False,304.50284,200,ltr_simple,True,False,304.8708
+dual,2846034,212,simple,True,False,304.48984,212,ltr_simple,True,False,304.8578
+dual,9468952,308,simple,True,False,292.0589,308,ltr_simple,True,False,292.44083
+dual,2954111,334,simple,True,False,292.0219,334,ltr_simple,True,False,292.38986
+dual,9155291,444,simple,True,False,280.5479,444,ltr_simple,True,False,280.91586
+dual,2238624,445,simple,True,False,280.5479,445,ltr_simple,True,False,280.91586
+dual,2238642,478,simple,True,False,280.5349,478,ltr_simple,True,False,280.90286
+razr,2492081,10,simple,True,False,511.77295,10,ltr_simple,True,False,512.14087
+razr,8234118,338,simple,True,False,0.012,338,ltr_simple,True,False,0.379943
+Incase,8947642,20,simple,True,False,452.43893,20,ltr_simple,True,False,452.8069
+Incase,2319054,27,simple,True,False,432.25705,27,ltr_simple,True,False,432.625
+Incase,1155475,67,simple,True,False,396.93567,67,ltr_simple,True,False,397.30362
+Incase,1155466,69,simple,True,False,396.87567,69,ltr_simple,True,False,397.24362
+Incase,1155439,70,simple,True,False,396.8697,70,ltr_simple,True,False,397.23764
+Incase,2319063,71,simple,True,False,396.8647,71,ltr_simple,True,False,397.23264
+Incase,8740197,77,simple,True,False,396.85867,77,ltr_simple,True,False,397.22662
+Incase,1502231,78,simple,True,False,396.85867,78,ltr_simple,True,False,397.22662
+Incase,2961733,79,simple,True,False,396.85867,79,ltr_simple,True,False,397.22662
+Incase,1700347,98,simple,True,False,396.85367,98,ltr_simple,True,False,397.22162
+Incase,2672113,111,simple,True,False,381.28113,111,ltr_simple,True,False,381.64908
+Incase,8990309,112,simple,True,False,381.27283,112,ltr_simple,True,False,381.64078
+Incase,2533201,113,simple,True,False,381.25916,113,ltr_simple,True,False,381.6271
+Incase,1155679,114,simple,True,False,381.25415,114,ltr_simple,True,False,381.6221
+Incase,2961706,115,simple,True,False,381.25415,115,ltr_simple,True,False,381.6221
+Incase,2533052,116,simple,True,False,381.25415,116,ltr_simple,True,False,381.6221
+Incase,8022908,118,simple,True,False,381.25082,118,ltr_simple,True,False,381.61877
+Incase,2986037,122,simple,True,False,381.24814,122,ltr_simple,True,False,381.6161
+Incase,2986046,128,simple,True,False,381.24313,128,ltr_simple,True,False,381.61108
+Incase,2532372,130,simple,True,False,381.24313,130,ltr_simple,True,False,381.61108
+Incase,2683176,136,simple,True,False,366.86923,136,ltr_simple,True,False,367.23718
+Incase,8740142,138,simple,True,False,366.8437,138,ltr_simple,True,False,367.21164
+Incase,9396156,139,simple,True,False,366.8437,139,ltr_simple,True,False,367.21164
+Incase,2672098,140,simple,True,False,366.83023,140,ltr_simple,True,False,367.19818
+Incase,2527033,141,simple,True,False,366.83023,141,ltr_simple,True,False,367.19818
+Incase,2683219,161,simple,True,False,353.45972,161,ltr_simple,True,False,353.82767
+Incase,8740133,162,simple,True,False,353.45593,162,ltr_simple,True,False,353.82388
+Incase,2962429,191,simple,True,False,341.07272,191,ltr_simple,True,False,341.44067
+Incase,9136179,192,simple,True,False,341.03116,192,ltr_simple,True,False,341.3991
+Incase,2683185,223,simple,True,False,329.47137,223,ltr_simple,True,False,329.83932
+Incase,2318055,246,simple,True,False,318.63913,246,ltr_simple,True,False,319.02762
+Incase,9635417,258,simple,True,False,308.45087,258,ltr_simple,True,False,308.81882
+Xbox,2173065,492,simple,True,False,301.69965,492,ltr_simple,True,False,302.0676
+popcorn maker,8457225,2,simple,True,False,1009.0909,2,ltr_simple,True,False,1009.47723
+popcorn maker,8998436,4,simple,True,False,919.24036,4,ltr_simple,True,False,919.6145
+popcorn maker,6914538,36,simple,True,False,810.61597,36,ltr_simple,True,False,810.9839
+popcorn maker,8998418,43,simple,True,False,0.3211425,43,ltr_simple,True,False,0.6890855
+popcorn maker,9809165,162,simple,True,False,0.06488182,162,ltr_simple,True,False,0.43282485
+Ps3,1251336,60,simple,True,False,796.964,60,ltr_simple,True,False,797.3319
+Ps3,8989614,147,simple,True,False,65.226074,147,ltr_simple,True,False,65.59402
+Ps3,9999168200050096,158,simple,True,False,41.087032,158,ltr_simple,True,False,41.454975
+Ps3,9408688,160,simple,True,False,34.514603,160,ltr_simple,True,False,34.896526
+Ps3,8208389,189,simple,True,False,6.59199,189,ltr_simple,True,False,6.9739122
+Ps3,8782533,190,simple,True,False,6.57799,190,ltr_simple,True,False,6.9664807
+Ps3,3158734,191,simple,True,False,6.57299,191,ltr_simple,True,False,6.9483123
+Ps3,9477247,192,simple,True,False,6.57199,192,ltr_simple,True,False,6.939933
+Ps3,3512065,231,simple,True,False,6.56999,231,ltr_simple,True,False,6.937933
+Ps3,9827425,260,simple,True,False,6.56999,260,ltr_simple,True,False,6.937933
+Ps3,9477292,269,simple,True,False,6.56999,269,ltr_simple,True,False,6.937933
+Ps3,8965943,271,simple,True,False,6.392221,271,ltr_simple,True,False,6.760164
+Ps3,1122196,274,simple,True,False,6.390221,274,ltr_simple,True,False,6.758164
+Ps3,2013927,328,simple,True,False,6.2320275,328,ltr_simple,True,False,6.5999703
+Ps3,9325367,329,simple,True,False,6.223027,329,ltr_simple,True,False,6.59097
+Ps3,9764462,331,simple,True,False,6.2210274,331,ltr_simple,True,False,6.58897
+Ps3,9889148,342,simple,True,False,6.2200274,342,ltr_simple,True,False,6.5879703
+Ps3,3061302,344,simple,True,False,5.6298184,344,ltr_simple,True,False,6.30386
+Ps3,3061366,348,simple,True,False,5.2958183,348,ltr_simple,True,False,5.663761
+Ps3,2891051,350,simple,True,False,5.2238183,350,ltr_simple,True,False,5.612309
+flat screen tv,9058743,1,simple,True,False,931.7898,1,ltr_simple,True,False,932.1577
+flat screen tv,1647802,3,simple,True,False,858.5852,3,ltr_simple,True,False,858.9531
+power supply 700 watt,3196572,1,simple,True,True,164.47836,1,ltr_simple,True,True,164.8525
+blu ray,2097336,14,simple,True,False,820.3829,14,ltr_simple,True,False,820.7508
+blu ray,9948775,51,simple,True,False,747.2032,51,ltr_simple,True,False,747.5711
+blu ray,2003047,52,simple,True,False,715.344,52,ltr_simple,True,False,715.9092
+blu ray,1666033,126,simple,True,False,686.0214,126,ltr_simple,True,False,686.38934
+blu ray,9901975,150,simple,True,False,686.0214,150,ltr_simple,True,False,686.38934
+blu ray,1237873,156,simple,True,False,686.01715,156,ltr_simple,True,False,686.3851
+blu ray,2158249,158,simple,True,False,686.01715,158,ltr_simple,True,False,686.3851
+blu ray,2097354,159,simple,True,False,686.01715,159,ltr_simple,True,False,686.3851
+blu ray,1666042,177,simple,True,False,659.0455,177,ltr_simple,True,False,659.509
+blu ray,2543428,205,simple,True,False,659.0362,205,ltr_simple,True,False,659.4041
+blu ray,2596887,209,simple,True,False,659.0362,209,ltr_simple,True,False,659.4041
+blu ray,9713663,464,simple,True,False,569.43866,464,ltr_simple,True,False,569.8066
+blu ray,2024262,477,simple,True,False,550.7425,477,ltr_simple,True,False,551.1104
+blu ray,1997349,478,simple,True,False,550.7315,478,ltr_simple,True,False,551.0994
+blu ray,2052176,482,simple,True,False,550.7265,482,ltr_simple,True,False,551.0944
+sound cards,9180405,6,simple,True,False,94.25768,6,ltr_simple,True,False,94.625626
+sound cards,9180414,7,simple,True,False,94.14768,7,ltr_simple,True,False,94.515625
+sound cards,9716175,13,simple,True,False,89.481255,13,ltr_simple,True,False,89.8492
+sound cards,1173369,28,simple,True,False,77.74379,28,ltr_simple,True,False,78.11173
+sound cards,1173378,31,simple,True,False,74.448524,31,ltr_simple,True,False,74.81647
+sound cards,1217833,376,simple,True,False,0.047373444,376,ltr_simple,True,False,0.41531646
+Cd players,9598633,56,simple,True,False,83.767075,56,ltr_simple,True,False,84.13502
+Cd players,9139826,128,simple,True,False,72.15671,128,ltr_simple,True,False,72.52465
+Cd players,9183279,203,simple,True,False,41.59138,203,ltr_simple,True,False,41.959324
+Cd players,1676121,231,simple,True,False,39.143326,231,ltr_simple,True,False,39.51127
+Cd players,3255354,426,simple,True,False,32.490437,426,ltr_simple,True,False,32.85838
+sony digital camera,8695263,47,simple,True,False,60.867657,47,ltr_simple,True,False,61.2356
+sony digital camera,2061059,201,simple,True,False,37.531235,201,ltr_simple,True,False,37.90076
+sony digital camera,2061068,202,simple,True,False,37.446236,202,ltr_simple,True,False,37.81418
+sony digital camera,2061086,203,simple,True,False,37.385235,203,ltr_simple,True,False,37.76716
+sony digital camera,3285041,287,simple,True,False,36.976418,287,ltr_simple,True,False,37.34436
+sony digital camera,2061077,390,simple,True,False,31.256836,390,ltr_simple,True,False,31.632158
+sony digital camera,2317038,393,simple,True,False,31.147835,393,ltr_simple,True,False,31.529757
+sony digital camera,2553107,407,simple,True,False,30.76716,407,ltr_simple,True,False,31.135103
+sony digital camera,1978056,408,simple,True,False,30.76716,408,ltr_simple,True,False,31.135103
+sony digital camera,3187031,425,simple,True,False,30.093857,425,ltr_simple,True,False,30.4618
+Jawbone jambox,1407325,1,simple,True,False,177.15915,1,ltr_simple,True,False,177.54552
+Jawbone jambox,1416077,3,simple,True,False,162.83795,3,ltr_simple,True,False,163.21208
+cd player,8222915,2,simple,True,False,657.9348,2,ltr_simple,True,False,658.30273
+cd player,8234449,3,simple,True,False,657.91174,3,ltr_simple,True,False,658.27966
+cd player,3869978,22,simple,True,False,596.5045,22,ltr_simple,True,False,596.87244
+cd player,9645459,42,simple,True,False,569.88745,42,ltr_simple,True,False,570.2554
+cd player,9183279,245,simple,True,False,41.56538,245,ltr_simple,True,False,41.933323
+cd player,1676121,275,simple,True,False,39.080326,275,ltr_simple,True,False,39.44827
+cd player,3153065,276,simple,True,False,39.073826,276,ltr_simple,True,False,39.44177
+Seagate hard drive,8490625,33,simple,True,False,49.894215,33,ltr_simple,True,False,50.27614
+Seagate hard drive,1590085,101,simple,True,False,36.612614,101,ltr_simple,True,False,36.980556
+Seagate hard drive,9929122,137,simple,True,False,11.382577,137,ltr_simple,True,False,11.75052
+Ico,1972853,1,simple,True,False,716.0304,1,ltr_simple,True,False,716.3983
+Ico,3294752,2,simple,True,False,0.052,2,ltr_simple,True,False,0.41994303
+Htc Tablets,2390524,5,simple,True,True,77.86028,5,ltr_simple,True,True,78.23143
+photoshop,1323111,20,simple,True,False,544.2983,20,ltr_simple,True,False,544.6662
+photoshop,1221845,22,simple,True,False,544.1023,22,ltr_simple,True,False,544.4702
+photoshop,9981206,37,simple,True,False,544.0802,37,ltr_simple,True,False,544.4481
+photoshop,3638178,39,simple,True,False,544.0753,39,ltr_simple,True,False,544.44324
+photoshop,1049815,45,simple,True,False,519.8346,45,ltr_simple,True,False,520.2025
+photoshop,9955848,49,simple,True,False,519.8146,49,ltr_simple,True,False,520.1825
+photoshop,3638132,50,simple,True,False,519.8102,50,ltr_simple,True,False,520.1781
+photoshop,1049779,52,simple,True,False,497.62106,52,ltr_simple,True,False,497.989
+photoshop,1323148,58,simple,True,False,458.7048,58,ltr_simple,True,False,459.07275
+photoshop,1229037,59,simple,True,False,458.62103,59,ltr_simple,True,False,458.98898
+photoshop,1228984,68,simple,True,False,441.2113,68,ltr_simple,True,False,441.57925
+photoshop,1229055,69,simple,True,False,441.12332,69,ltr_simple,True,False,441.49127
+photoshop,3638141,71,simple,True,False,441.11716,71,ltr_simple,True,False,441.4851
+photoshop,9322752,371,simple,True,False,0.007,371,ltr_simple,True,False,0.37494302
+photoshop,8234047,382,simple,True,False,0.007,382,ltr_simple,True,False,0.37494302

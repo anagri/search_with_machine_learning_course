@@ -1,0 +1,14 @@
+0	na	q
+1	name_match	q
+2	name_phrase_match	q
+3	customer_review_average_factor	q
+4	customerReviewCount	q
+5	short_description_match	q
+6	artist_name_match	q
+7	long_description_phrase_match	q
+8	long_description_match	q
+9	salesRankShortTerm	q
+10	sku_match	q
+11	manufacturer_match	q
+12	features_match	q
+13	category_path_match	q

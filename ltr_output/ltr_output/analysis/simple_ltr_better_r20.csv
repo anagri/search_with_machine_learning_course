@@ -1,0 +1,5 @@
+query,sku,rank_simple,type_simple,found_simple,new_simple,score_simple,rank_ltr,type_ltr,found_ltr,new_ltr,score_ltr
+htc flyer,1945531,495,simple,True,False,0.002,13,ltr_simple,True,False,0.6298217
+iPhone 4s,3566775,12,simple,True,True,2141.493,11,ltr_simple,True,True,2141.8625
+refridgerator,9790988,33,simple,True,False,0.03802743,12,ltr_simple,True,False,0.41994992
+blu ray,2024401,3,simple,True,False,862.65015,2,ltr_simple,True,False,863.2293

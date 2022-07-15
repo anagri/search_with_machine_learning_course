@@ -1,0 +1,69 @@
+query,sku,rank_simple,type_simple,found_simple,new_simple,score_simple,rank_ltr,type_ltr,found_ltr,new_ltr,score_ltr
+microsd,1200475,341,simple,True,False,5.952401,340,ltr_simple,True,False,6.334324
+Ipad 2,1945531,51,simple,True,False,270.74216,46,ltr_simple,True,False,271.67865
+Ipad 2,1945595,55,simple,True,False,270.35315,53,ltr_simple,True,False,270.87994
+Ipad 2,2339322,56,simple,True,False,270.34314,52,ltr_simple,True,False,270.90457
+Ipad 2,2319197,61,simple,True,False,270.27713,59,ltr_simple,True,False,270.67776
+Toshiba,2138103,212,simple,True,False,305.58932,210,ltr_simple,True,False,305.97125
+htc flyer,2817582,487,simple,True,False,0.017,456,ltr_simple,True,False,0.39892247
+htc flyer,2475916,494,simple,True,False,0.002,493,ltr_simple,True,False,0.38275924
+htc flyer,1945531,495,simple,True,False,0.002,13,ltr_simple,True,False,0.6298217
+htc flyer,2265381,496,simple,True,False,0.002,492,ltr_simple,True,False,0.3839225
+iPhone,1049087,245,simple,True,False,641.70795,244,ltr_simple,True,False,642.08984
+iPhone,3133099,470,simple,True,False,618.3052,469,ltr_simple,True,False,618.69305
+iPhone,1990451,475,simple,True,False,618.30225,471,ltr_simple,True,False,618.67145
+iPhone 4s,3566775,12,simple,True,True,2141.493,11,ltr_simple,True,True,2141.8625
+iPhone 4s,3487784,23,simple,True,True,2062.3591,20,ltr_simple,True,True,2062.741
+iPhone 4s,3133099,117,simple,True,True,208.68979,110,ltr_simple,True,True,209.07774
+iPhone 4s,1049078,491,simple,True,True,0.043865155,444,ltr_simple,True,True,0.42578763
+hdmi,9343089,52,simple,True,False,428.00012,51,ltr_simple,True,False,428.48703
+sd memory,8554806,401,simple,True,False,0.053827576,380,ltr_simple,True,False,0.57475173
+sd memory,8310847,439,simple,True,False,0.03869114,416,ltr_simple,True,False,0.40821853
+sd memory,7956599,442,simple,True,False,0.03869114,381,ltr_simple,True,False,0.5048556
+Tablet pc,2475916,130,simple,True,False,1.7994142,129,ltr_simple,True,False,2.1801734
+Tablet pc,2769576,141,simple,True,False,0.085366756,137,ltr_simple,True,False,0.46728924
+Tablet pc,2390524,152,simple,True,False,0.0772699,149,ltr_simple,True,False,0.4467973
+ipod dock,8896233,485,simple,True,False,18.875553,484,ltr_simple,True,False,19.375761
+playstation 3,3061302,129,simple,True,False,346.22885,127,ltr_simple,True,False,347.10184
+playstation 3,2173056,224,simple,True,False,340.56464,178,ltr_simple,True,False,340.9358
+playstation 3,9971251,278,simple,True,False,340.56464,180,ltr_simple,True,False,340.9358
+playstation 3,2107449,348,simple,True,False,321.2544,347,ltr_simple,True,False,321.62555
+Ipad,9924603,308,simple,True,False,318.4946,304,ltr_simple,True,False,318.8899
+shure,1222413,371,simple,True,False,0.008,364,ltr_simple,True,False,0.39649087
+refridgerator,9790988,33,simple,True,False,0.03802743,12,ltr_simple,True,False,0.41994992
+refridgerator,9747165,65,simple,True,False,0.034230787,48,ltr_simple,True,False,0.4037582
+lenovo,1520158,365,simple,True,False,0.002,362,ltr_simple,True,False,0.37119094
+lenovo,2833077,371,simple,True,False,0.002,353,ltr_simple,True,False,0.3839225
+lenovo,9755322,390,simple,True,False,0.002,345,ltr_simple,True,False,0.5128218
+iPad cases,2319133,168,simple,True,False,16.68451,167,ltr_simple,True,False,17.066431
+acer,3245029,89,simple,True,False,374.25513,88,ltr_simple,True,False,374.6901
+acer,2768901,453,simple,True,False,0.003,423,ltr_simple,True,False,0.39149088
+acer,9755322,459,simple,True,False,0.003,420,ltr_simple,True,False,0.51382184
+ipad 2,1945531,51,simple,True,False,270.69214,46,ltr_simple,True,False,271.62863
+ipad 2,1945595,55,simple,True,False,270.38913,52,ltr_simple,True,False,270.91592
+ipad 2,2339322,56,simple,True,False,270.34613,53,ltr_simple,True,False,270.90756
+ipad 2,2319197,61,simple,True,False,270.28015,59,ltr_simple,True,False,270.6808
+Routers,9769228,67,simple,True,False,64.05052,27,ltr_simple,True,False,64.52302
+Routers,8040121,248,simple,True,False,49.959126,240,ltr_simple,True,False,50.34105
+Routers,2490384,303,simple,True,False,45.92224,301,ltr_simple,True,False,46.310734
+led tv,2128142,95,simple,True,False,0.08203617,94,ltr_simple,True,False,0.46395865
+led tv,1997794,99,simple,True,False,0.06577798,97,ltr_simple,True,False,0.44770047
+led tv,9896008,107,simple,True,False,0.06381223,98,ltr_simple,True,False,0.4457347
+led tv,2970291,109,simple,True,False,0.06336845,104,ltr_simple,True,False,0.43289584
+led tv,1854682,376,simple,True,False,0.05681223,100,ltr_simple,True,False,0.4387347
+hard drives,8490625,207,simple,True,False,68.38212,189,ltr_simple,True,False,68.85839
+dual,8669942,319,simple,True,False,292.0219,309,ltr_simple,True,False,292.40384
+razr,8234038,336,simple,True,False,0.012,325,ltr_simple,True,False,0.3946498
+Xbox,1036858,326,simple,True,False,301.70258,323,ltr_simple,True,False,302.20255
+Ps3,3652529,353,simple,True,False,5.2148185,351,ltr_simple,True,False,5.603309
+Ps3,2670179,356,simple,True,False,5.211818,353,ltr_simple,True,False,5.5937405
+Ps3,1051329,378,simple,True,False,5.205818,352,ltr_simple,True,False,5.594309
+Ps3,9276295,379,simple,True,False,5.205818,355,ltr_simple,True,False,5.587741
+Ps3,2107449,380,simple,True,False,5.205818,367,ltr_simple,True,False,5.5753455
+blu ray,2024401,3,simple,True,False,862.65015,2,ltr_simple,True,False,863.2293
+blu ray,2945870,39,simple,True,False,747.2079,26,ltr_simple,True,False,747.66327
+blu ray,2945889,58,simple,True,False,715.311,55,ltr_simple,True,False,715.8301
+blu ray,2004055,176,simple,True,False,659.0455,175,ltr_simple,True,False,659.58716
+sony digital camera,2255047,209,simple,True,False,37.360237,204,ltr_simple,True,False,37.742886
+Seagate hard drive,3551442,166,simple,True,False,10.682685,155,ltr_simple,True,False,11.058007
+Htc Tablets,2842056,193,simple,True,True,0.060500596,21,ltr_simple,True,True,0.44899148

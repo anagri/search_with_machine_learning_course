@@ -1,0 +1,20 @@
+query,sku,rank_ht,type_ht,found_ht,new_ht,score_ht,rank_ltr,type_ltr,found_ltr,new_ltr,score_ltr
+rolling stones,3072513,5,hand_tuned,True,False,0.108193934,3,ltr_hand_tuned,True,False,0.49456674
+tivo,9744971,15,hand_tuned,True,False,0.05414051,4,ltr_hand_tuned,True,False,0.58771217
+iPod Mano,9225377,5,hand_tuned,True,True,0.076964766,1,ltr_hand_tuned,True,True,0.82522583
+htc flyer,2390524,8,hand_tuned,True,False,0.06685559,1,ltr_hand_tuned,True,False,0.824586
+htc flyer,1945531,17,hand_tuned,True,False,0.005094575,2,ltr_hand_tuned,True,False,0.63291633
+sd memory,8554806,18,hand_tuned,True,False,0.1329654,17,ltr_hand_tuned,True,False,0.65388954
+sd memory,7956599,20,hand_tuned,True,False,0.08478234,19,ltr_hand_tuned,True,False,0.5509468
+Garment steamer,1148069,9,hand_tuned,True,False,0.11264966,1,ltr_hand_tuned,True,False,0.6025697
+sd memory card,7956599,17,hand_tuned,True,False,11.965686,16,ltr_hand_tuned,True,False,12.408786
+Tablet pc,1945531,6,hand_tuned,True,False,0.12991166,5,ltr_hand_tuned,True,False,0.7577334
+Tablet pc,8856865,29,hand_tuned,True,False,0.05986382,13,ltr_hand_tuned,True,False,0.44775403
+Vaccum cleaners,9497699,8,hand_tuned,True,True,7.404689e-05,3,ltr_hand_tuned,True,True,0.38199654
+refridgerator,9747165,11,hand_tuned,True,False,5.9026985e-05,9,ltr_hand_tuned,True,False,0.36958644
+refridgerator,9790988,39,hand_tuned,True,False,3.802743e-06,3,ltr_hand_tuned,True,False,0.3819263
+lenovo,9755322,390,hand_tuned,True,False,2.0000002e-07,13,ltr_hand_tuned,True,False,0.510822
+Routers,2225047,5,hand_tuned,True,False,104.69582,4,ltr_hand_tuned,True,False,105.3268
+voice recorders,2596332,104,hand_tuned,True,False,0.012101265,15,ltr_hand_tuned,True,False,0.38623098
+Flyer,2390524,10,hand_tuned,True,False,0.057022173,6,ltr_hand_tuned,True,False,0.4281668
+Flyer,2842056,114,hand_tuned,True,False,3.24e-05,19,ltr_hand_tuned,True,False,0.38852328
