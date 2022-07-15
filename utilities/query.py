@@ -18,6 +18,9 @@ import re
 from nltk.stem.snowball import SnowballStemmer
 stemmer = SnowballStemmer("english")
 
+from sentence_transformers import SentenceTransformer
+
+model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 query_classifier = fasttext.load_model('/workspace/search_with_machine_learning_course/week3/query_classifier_1k.bin')
 
 logger = logging.getLogger(__name__)
@@ -201,7 +204,28 @@ def normalize_query(query):
     query = stemmer.stem(query)
     return query
 
-def search(client, user_query, index="bbuy_products", sort="_score", sortDir="desc", synonyms=False, filter_categories=False):
+def create_vector_query(query):
+    encoded_query = model.encode([query])
+    query_obj = {
+        "size": 5,
+        "query": {"knn": {"name_vector": {"vector": encoded_query[0], "k": 5}}}
+    }
+    return query_obj
+
+
+def search(client, user_query, index="bbuy_products",
+        sort="_score", sortDir="desc", synonyms=False,
+        filter_categories=False, vector_search=False):
+    if vector_search:
+        query_obj = create_vector_query(user_query)
+        response = client.search(query_obj, index=index)
+        if response and response['hits']['hits'] and len(response['hits']['hits']) > 0:
+            hits = response['hits']['hits']
+            names = [hit['_source']['name'][0] for hit in hits]
+            print(f"search '{query}' --vector")
+            print("Results:")
+            [print(n) for n in names[0:5]]
+        return 
     #### W3: classify the query
     #### W3: create filters and boosts
     # Note: you may also want to modify the `create_query` method above
@@ -258,6 +282,8 @@ if __name__ == "__main__":
                          help='Include synonyms in search. If this is set, search will be performed on field indexed with synonyms')
     general.add_argument('--filter_categories', action=argparse.BooleanOptionalAction,
                          help='Uses categories learned from model trained on queries to improve precision')
+    general.add_argument('--vector', action=argparse.BooleanOptionalAction,
+                         help='Uses vector search to find matches')
 
     args = parser.parse_args()
 
@@ -267,6 +293,7 @@ if __name__ == "__main__":
 
     host = args.host
     port = args.port
+    vector_search = args.vector
     if args.user:
         password = getpass()
         auth = (args.user, password)
@@ -294,9 +321,9 @@ if __name__ == "__main__":
         if query == "Exit":
             break
         print("-----")
-        search(client=opensearch, user_query=query, index=index_name, synonyms=synonyms, filter_categories=False)
+        search(client=opensearch, user_query=query, index=index_name, synonyms=synonyms, filter_categories=False, vector_search=vector_search)
         print("-----")
-        search(client=opensearch, user_query=query, index=index_name, synonyms=synonyms, filter_categories=True)
+        search(client=opensearch, user_query=query, index=index_name, synonyms=synonyms, filter_categories=True, vector_search=vector_search)
         print("=====")
         print(query_prompt)
 
